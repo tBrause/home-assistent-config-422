@@ -1,0 +1,694 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "225b2671bda3aa1f26a815a5b3fc156d",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "sw_version": "2023.4.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "4e53d40f34ca4fa7e3e5f88c51c84ed4",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2023.04.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "65fe34a210cd4680bde86e3fb9b5f53d",
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "name_by_user": null,
+        "name": "Home Assistant Operating System",
+        "sw_version": "9.5",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f7001afb7a0d36025b73eab6f727cd8e"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "E4:5F:01:84:70:96"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d053F",
+        "id": "9823e7399cabda6e07b27446791ff460",
+        "identifiers": [],
+        "manufacturer": "Raspberry Pi Trading Ltd",
+        "model": "Unknown",
+        "name_by_user": null,
+        "name": "hci0 (E4:5F:01:84:70:96)",
+        "sw_version": "homeassistant",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "35cdf8f62170010c09a8c7270586062f"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3c97cd72619b4d597501fa36729046e3",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_configurator",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "4c09b049adf054d7350c1e691e155534",
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "File editor",
+        "sw_version": "5.5.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_ssh",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "0408e53e20043aa5212c0e95af4ff104",
+        "identifiers": [
+          [
+            "hassio",
+            "core_ssh"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Terminal & SSH",
+        "sw_version": "9.6.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_mosquitto",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "5a78f17517d1ff675f7155a1ee91622f",
+        "identifiers": [
+          [
+            "hassio",
+            "core_mosquitto"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Mosquitto broker",
+        "sw_version": "6.2.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/77c0fc0d_mqtt-explorer",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "a2dfa44fe87346bbd7b3bf029ba9ef6d",
+        "identifiers": [
+          [
+            "hassio",
+            "77c0fc0d_mqtt-explorer"
+          ]
+        ],
+        "manufacturer": "MQTT Explorer",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "MQTT Explorer",
+        "sw_version": "browser-1.0.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2a0117b368aea1fdba282507abf09a2f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2f83fdee94e4406590c54c2ad03f455c",
+        "identifiers": [
+          [
+            "mobile_app",
+            "23EB3C0B-DE56-40A7-9775-E89D1963CD6F"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone11,8",
+        "name_by_user": null,
+        "name": "iPhone von Torsten",
+        "sw_version": "16.3.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_nginx_proxy",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "326fd84b528d9e213581577afde7f4f8",
+        "identifiers": [
+          [
+            "hassio",
+            "core_nginx_proxy"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "NGINX Home Assistant SSL proxy",
+        "sw_version": "3.2.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_nodered",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "c240f24b1c1bf23b6e6513ed733e49b2",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_nodered"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Node-RED",
+        "sw_version": "14.1.4",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_letsencrypt",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "905d1ee3d91ff4ca40120762af49ddfa",
+        "identifiers": [
+          [
+            "hassio",
+            "core_letsencrypt"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Let's Encrypt",
+        "sw_version": "4.12.8",
+        "via_device_id": null
+      },
+      {
+        "area_id": "buro",
+        "config_entries": [
+          "bb5c4cea695b07509a74448687df80ce"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7335b37fd0d6db0d7a2c40f0cc0b4962",
+        "identifiers": [
+          [
+            "ibeacon",
+            "494e5445-4c4c-495f-524f-434b535f4857_20597_62207_A4:C1:38:D8:BB:2A"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "GVH5102_BB2A",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "buro",
+        "config_entries": [
+          "565be1f481f9ab24bdd972a2df51a097"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d99788a0e7551aebc8f844f130f351e7",
+        "identifiers": [
+          [
+            "bluetooth",
+            "A4:C1:38:D8:BB:2A"
+          ]
+        ],
+        "manufacturer": "Govee",
+        "model": "H5101/H5102/H5177",
+        "name_by_user": null,
+        "name": "H5102 BB2A",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "buro",
+        "config_entries": [
+          "15f0554272be29a56e7d4734b190b47d",
+          "3ba58fd1a4153aa3d4b75253576edea8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-9f6c-E8DF7061205E"
+          ]
+        ],
+        "disabled_by": "config_entry",
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a801a5c811fa6fb83fe43944ff429fe0",
+        "identifiers": [
+          [
+            "upnp_host",
+            "192.168.178.1"
+          ],
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-8e6c-E8DF7061205E::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ]
+        ],
+        "manufacturer": "AVM Berlin",
+        "model": "FRITZ!Box 7412 (UI)",
+        "name_by_user": null,
+        "name": "InternetGatewayDeviceV2 - welcome",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "wohnzimmer",
+        "config_entries": [
+          "ffed6c84023e6df27ca953629a1022f3"
+        ],
+        "configuration_url": "https://my.netatmo.com/app/weather",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6741476a27c8c6c095cd1312b245a15c",
+        "identifiers": [
+          [
+            "netatmo",
+            "70:ee:50:90:a5:54"
+          ]
+        ],
+        "manufacturer": "Netatmo",
+        "model": "Smart Home Weather station",
+        "name_by_user": null,
+        "name": "Weather Station",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "outdoor",
+        "config_entries": [
+          "ffed6c84023e6df27ca953629a1022f3"
+        ],
+        "configuration_url": "https://my.netatmo.com/app/weather",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6e8f52b8ae4fb90199952e7977f4fc30",
+        "identifiers": [
+          [
+            "netatmo",
+            "02:00:00:90:93:f4"
+          ]
+        ],
+        "manufacturer": "Netatmo",
+        "model": "Smart Outdoor Module",
+        "name_by_user": null,
+        "name": "Weather Station Weather Station Weather Station Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "outdoor",
+        "config_entries": [
+          "ffed6c84023e6df27ca953629a1022f3"
+        ],
+        "configuration_url": "https://my.netatmo.com/app/weather",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2371c833f3708a6f86e9cb80dcc76aa3",
+        "identifiers": [
+          [
+            "netatmo",
+            "05:00:00:09:d6:f0"
+          ]
+        ],
+        "manufacturer": "Netatmo",
+        "model": "Smart Rain Gauge",
+        "name_by_user": null,
+        "name": "Weather Station Weather Station Weather Station Regenmesser",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_influxdb",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "826ec55a0b803fbb993d4e8ae5a5ce62",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_influxdb"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "InfluxDB",
+        "sw_version": "4.6.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "248bbb9c2cc6c074f019399e5ad32242"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "48865dd6c6256ea1f147196c0b8a2eff",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "sw_version": "1.32.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e635cb21cdeb1bb62fb7501e3fcc1e02",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "4f36b08468dec00154d4c173a48ede3f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "32a4c51f31c839b8140901d89f475c3f",
+        "identifiers": [
+          [
+            "sun",
+            "4f36b08468dec00154d4c173a48ede3f"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "bb5c4cea695b07509a74448687df80ce"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7a4de5fb453c37b4e6671aeca8ee520e",
+        "identifiers": [
+          [
+            "ibeacon",
+            "74278bda-b644-4520-8f0c-720eaf059935_0_52197_A0:0B:16:14:37:5A"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "S89aa941ded9b61c9C 375A",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "buro",
+        "config_entries": [
+          "3cf9a4edd67327f6135571f56d7ad422"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "90992f38effd6151562746e3448cdd0c",
+        "identifiers": [
+          [
+            "bluetooth",
+            "A4:C1:38:FF:FD:E8"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "LYWSD03MMC",
+        "name_by_user": null,
+        "name": "Temperature/Humidity Sensor FDE8",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "bb5c4cea695b07509a74448687df80ce"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f2fe2ceb71f74e2db8f29611aae1d2d6",
+        "identifiers": [
+          [
+            "ibeacon",
+            "74278bda-b644-4520-8f0c-720eaf059935_256_2076_8C:03:7B:49:45:65"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "S3e665e44d333e340C 4565",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "146e3718434ab8c8636fddb583b9b661",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_vscode"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Studio Code Server",
+        "sw_version": "5.5.6",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "bb5c4cea695b07509a74448687df80ce"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "ibeacon",
+            "74278bda-b644-4520-8f0c-720eaf059935_0_63471_A0:0B:16:13:BB:5C"
+          ]
+        ],
+        "id": "a273c8f44f8ecc4115829476dd364663",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "bluetooth",
+            "A4:C1:38:DC:E0:CE"
+          ]
+        ],
+        "id": "89b981db7dff917d6ebc117bd1d23874",
+        "orphaned_timestamp": 1681245772.1181345
+      }
+    ]
+  }
+}

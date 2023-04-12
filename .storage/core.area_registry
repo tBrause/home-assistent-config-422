@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "name": "Büro",
+        "id": "buro",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Wohnzimmer",
+        "id": "wohnzimmer",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Outdoor",
+        "id": "outdoor",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "mi",
+        "id": "mi",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Raspi",
+        "id": "raspi",
+        "picture": null
+      }
+    ]
+  }
+}

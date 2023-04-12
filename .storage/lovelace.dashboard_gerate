@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_gerate",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "device_tracker.gvh5102_bb2a"
+                },
+                {
+                  "entity": "sensor.gvh5102_bb2a_power"
+                },
+                {
+                  "entity": "sensor.gvh5102_bb2a_signal_strength"
+                },
+                {
+                  "entity": "sensor.gvh5102_bb2a_estimated_distance",
+                  "name": "Estimated Distance"
+                }
+              ],
+              "title": "GVH5102_BB2A"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.weather_station_reachability",
+                  "name": "Reachability"
+                },
+                {
+                  "entity": "sensor.weather_station_wifi",
+                  "name": "Wifi"
+                }
+              ],
+              "title": "Weather Station"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.weather_station_weather_station_weather_station_regenmesser_radio",
+                  "name": "Radio"
+                },
+                {
+                  "entity": "sensor.weather_station_weather_station_weather_station_regenmesser_reachability",
+                  "name": "Reachability"
+                }
+              ],
+              "title": "Weather Station Weather Station Weather Station Regenmesser"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.weather_station_weather_station_weather_station_outdoor_radio",
+                  "name": "Radio"
+                },
+                {
+                  "entity": "sensor.weather_station_weather_station_weather_station_outdoor_reachability",
+                  "name": "Reachability"
+                }
+              ],
+              "title": "Weather Station Weather Station Weather Station Outdoor"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.gvh5102_bb2a_vendor",
+                {
+                  "entity": "sensor.gvh5102_bb2a_estimated_distance",
+                  "name": "Estimated Distance"
+                },
+                {
+                  "entity": "sensor.gvh5102_bb2a_power",
+                  "name": "Power"
+                },
+                {
+                  "entity": "sensor.gvh5102_bb2a_signal_strength",
+                  "name": "Signal Strength"
+                }
+              ],
+              "title": "GVH5102_BB2A"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.h5102_bb2a_signal_strength",
+                  "name": "Signal Strength"
+                },
+                {
+                  "entity": "sensor.h5102_bb2a_battery"
+                },
+                {
+                  "entity": "sensor.gvh5102_bb2a_power"
+                }
+              ],
+              "title": "H5102 BB2A"
+            },
+            {
+              "type": "entity",
+              "entity": "sensor.raspi481_ram_auslastung_2",
+              "icon": "mdi:memory"
+            }
+          ]
+        }
+      ],
+      "title": "Geräte"
+    }
+  }
+}

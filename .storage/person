@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "Torsten Brause",
+        "user_id": "bc51762e0e6446799a0b741256f4f467",
+        "device_trackers": [
+          "device_tracker.iphone_von_torsten"
+        ],
+        "id": "torsten_brause"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+tb:
+  # Global
+  primary-color: "#226e93"
+  light-primary-color: "#2c2c2e" # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
+  primary-background-color: "#f1f1f1"
+  secondary-background-color: rgba(255, 255, 255, 0.9)
+  divider-color: rgba(142, 142, 147, 0.3) # from Apple systemGray light mode
+  accent-color: "#ccc"
+  app-header-background-color: "#226e93"
+  app-header-text-color: "#f1f1f1"
+  app-toolbar-font-size: "1em"
+  # Text
+  primary-text-color: "#464a47"
+  secondary-text-color: "#000000"
+  text-primary-color: "#FFF"
+  disabled-text-color: "#555" # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
+  text-dark-color: "#FFF"
+  # Sidebar Menu
+  sidebar-background-color: "#222"
+  sidebar-icon-color: "#ccc"
+  sidebar-text-color: "#f1f1f1"
+  sidebar-selected-icon-color: "#f1f1f1"
+  sidebar-selected-text-color: "#f1f1f1"
+  sidebar-selected-background-color: var(--primary-background-color)
+  # Custom
+  mcg-title-letter-spacing: .15em
+  mini-media-player-base-color: white
+  mini-media-player-icon-color: white
+  # Input
+  input-ink-color: var(--primary-text-color)
+  input-fill-color: transparent
+  input-disabled-fill-color: transparent
+  input-label-ink-color: var(--primary-text-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  input-dropdown-icon-color: var(--primary-text-color)
+  input-idle-line-color: var(--secondary-text-color)
+  input-hover-line-color: var(--secondary-text-color)
+  codemirror-property: var(--accent-color)
+# Load frontend themes from the themes folder
+# frontend: !include themes.yaml

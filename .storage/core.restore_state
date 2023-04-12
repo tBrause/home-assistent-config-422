@@ -1,0 +1,739 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.torsten_brause",
+        "state": "home",
+        "attributes": {
+          "editable": true,
+          "id": "torsten_brause",
+          "latitude": 52.51043701171875,
+          "longitude": 13.457965745115864,
+          "gps_accuracy": 21,
+          "source": "device_tracker.iphone_von_torsten",
+          "user_id": "bc51762e0e6446799a0b741256f4f467",
+          "friendly_name": "Torsten Brause"
+        },
+        "last_changed": "2023-04-12T15:46:59.658178+00:00",
+        "last_updated": "2023-04-12T15:47:18.410802+00:00",
+        "context": {
+          "id": "01GXV2CQ8AK8X4K72W4AMZX84C",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2023.04.0",
+          "in_progress": false,
+          "latest_version": "2023.04.0",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2023.04.0",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor Update",
+          "supported_features": 1
+        },
+        "last_changed": "2023-04-12T15:47:09.130328+00:00",
+        "last_updated": "2023-04-12T15:47:09.130328+00:00",
+        "context": {
+          "id": "01GXV2CE6AADEVRP3T42SYDV7N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2023.4.2",
+          "in_progress": false,
+          "latest_version": "2023.4.2",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core Update",
+          "supported_features": 11
+        },
+        "last_changed": "2023-04-12T15:47:09.130958+00:00",
+        "last_updated": "2023-04-12T15:47:09.130958+00:00",
+        "context": {
+          "id": "01GXV2CE6A67936W31T18Q472D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.file_editor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.5.0",
+          "in_progress": false,
+          "latest_version": "5.5.0",
+          "release_summary": "# Changelog\n\n## 5.5.1\n\n- Fix Home Assistant wheels path\n\n## 5.5.0\n\n- Update base image to Alpine 3.16\n  - Bumps `git` to 2.36.3\n  - Bumps `ssh` to OpenSSH_9.0p1\n  - Bumps `python3` to 3.10.9\n\n## 5.4.2\n\n- Bugfix: Fix page load with special characters in st",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "File editor",
+          "entity_picture": "/api/hassio/addons/core_configurator/icon",
+          "friendly_name": "File editor Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.131312+00:00",
+        "last_updated": "2023-04-12T15:47:09.131312+00:00",
+        "context": {
+          "id": "01GXV2CE6BZ8AKHB79K34M3MXC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "9.6.1",
+          "in_progress": false,
+          "latest_version": "9.6.1",
+          "release_summary": "# Changelog\n\n## 9.6.1\n\n- Upgrade Home Assistant CLI to 4.21.0\n\n## 9.6.0\n\n**Breaking change**: RSA keys generated using the SHA-1 hash algorithm\nwere disabled by OpenSSH due to a security vulnerability. If you find\nyour RSA key does not work after update y",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.131655+00:00",
+        "last_updated": "2023-04-12T15:47:09.131655+00:00",
+        "context": {
+          "id": "01GXV2CE6BHWKSK23Q2470F3YC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mosquitto_broker_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "6.2.0",
+          "in_progress": false,
+          "latest_version": "6.2.0",
+          "release_summary": "# Changelog\n\n## 6.2.0\n\n- Update mosquitto to 2.0.15\n- Update libwebsockets to 4.3.2 (fixes Unable to create websockets listener)\n\n## 6.1.3\n\n- Change timestamp format in logs\n\n## 6.1.2\n\n- Add debug option to help with issues\n\n## 6.1.1\n\n- Don't purge openss",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Mosquitto broker",
+          "entity_picture": "/api/hassio/addons/core_mosquitto/icon",
+          "friendly_name": "Mosquitto broker Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.132090+00:00",
+        "last_updated": "2023-04-12T15:47:09.132090+00:00",
+        "context": {
+          "id": "01GXV2CE6CHRWKBASS16MZN8KS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mqtt_explorer_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "browser-1.0.1",
+          "in_progress": false,
+          "latest_version": "browser-1.0.1",
+          "release_summary": "---\n\n| Version    | Change                                                    |\n| ---------- | --------------------------------------------------------- |\n| **1**   | initial release                                              |\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "MQTT Explorer",
+          "entity_picture": "/api/hassio/addons/77c0fc0d_mqtt-explorer/icon",
+          "friendly_name": "MQTT Explorer Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.132387+00:00",
+        "last_updated": "2023-04-12T15:47:09.132387+00:00",
+        "context": {
+          "id": "01GXV2CE6C8GXZV83WNKMBNC3Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.nginx_home_assistant_ssl_proxy_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "3.2.0",
+          "in_progress": false,
+          "latest_version": "3.2.0",
+          "release_summary": "# Changelog\n\n## 3.2.0\n\n- Update Alpine to 3.16 (nginx 1.22.x)\n\n## 3.1.5\n\n- Fixed container environment\n\n## 3.1.4\n\n- Fixed init config\n\n## 3.1.3\n\n- Reject SSL on unknown domains instead of responding with an invalid certificate\n\n## 3.1.2\n\n- Fix TLSv1.3 sup",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "NGINX Home Assistant SSL proxy",
+          "entity_picture": "/api/hassio/addons/core_nginx_proxy/icon",
+          "friendly_name": "NGINX Home Assistant SSL proxy Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.132668+00:00",
+        "last_updated": "2023-04-12T15:47:09.132668+00:00",
+        "context": {
+          "id": "01GXV2CE6C16YX8R5PEPWDHNZA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.node_red_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "14.1.4",
+          "in_progress": false,
+          "latest_version": "14.1.4",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#1582](https://github.com/hassio-addons/addon-node-red/pull/1582))\n- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Node-RED",
+          "entity_picture": "/api/hassio/addons/a0d7b954_nodered/icon",
+          "friendly_name": "Node-RED Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.133048+00:00",
+        "last_updated": "2023-04-12T15:47:09.133048+00:00",
+        "context": {
+          "id": "01GXV2CE6DJ2TDGMN7KKNWP8DV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.let_s_encrypt_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.12.8",
+          "in_progress": false,
+          "latest_version": "4.12.8",
+          "release_summary": "# Changelog\n\n## 4.12.8\n\n- Add INWX DNS challenge support\n\n## 4.12.7\n\n- Add Hetzner DNS challenge support\n\n## 4.12.6\n\n- Add Azure DNS challenge support\n\n## 4.12.5\n\n- Fix another syntax error in runs script for rfc2136\n\n## 4.12.4\n\n- Fix syntax error in runs",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Let's Encrypt",
+          "entity_picture": "/api/hassio/addons/core_letsencrypt/icon",
+          "friendly_name": "Let's Encrypt Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.133363+00:00",
+        "last_updated": "2023-04-12T15:47:09.133363+00:00",
+        "context": {
+          "id": "01GXV2CE6DSRTPT5K1XM0G491X",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.influxdb_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.6.0",
+          "in_progress": false,
+          "latest_version": "4.6.0",
+          "release_summary": "## What’s changed\n\n## 🧰 Maintenance\n\n- Add Renovate for dependency management @frenck ([#271](https://github.com/hassio-addons/addon-influxdb/pull/271))\n- 🎆 Updates maintenance/license year to 2023 @frenck ([#277](https://github.com/hassio-addons/addon-in",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "InfluxDB",
+          "entity_picture": "/api/hassio/addons/a0d7b954_influxdb/icon",
+          "friendly_name": "InfluxDB Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.133631+00:00",
+        "last_updated": "2023-04-12T15:47:09.133631+00:00",
+        "context": {
+          "id": "01GXV2CE6DS95P1MVHDGHSQEB2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.studio_code_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.5.6",
+          "in_progress": false,
+          "latest_version": "5.5.6",
+          "release_summary": "## What’s changed\n\n## 🧰 Maintenance\n\n- 🔨 Adjust upstream code-server org name @frenck ([#603](https://github.com/hassio-addons/addon-vscode/pull/603))\n\n## 📚 Documentation\n\n- Update URLs in documentation @wrt54g ([#602](https://github.com/hassio-addons/add",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Studio Code Server",
+          "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+          "friendly_name": "Studio Code Server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-04-12T15:47:09.133965+00:00",
+        "last_updated": "2023-04-12T15:47:09.133965+00:00",
+        "context": {
+          "id": "01GXV2CE6DYQCPA3WZ69Y9JSPD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "9.5",
+          "in_progress": false,
+          "latest_version": "9.5",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/operating-system/releases/tag/9.5",
+          "skipped_version": null,
+          "title": "Home Assistant Operating System",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Operating System Update",
+          "supported_features": 3
+        },
+        "last_changed": "2023-04-12T15:47:09.134499+00:00",
+        "last_updated": "2023-04-12T15:47:09.134499+00:00",
+        "context": {
+          "id": "01GXV2CE6E8MVV48CQ31JB2WKC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shelly23temp",
+        "state": "22.12",
+        "attributes": {
+          "unit_of_measurement": "C",
+          "friendly_name": "Shelly 23 Temperatur"
+        },
+        "last_changed": "2023-04-12T21:00:20.090269+00:00",
+        "last_updated": "2023-04-12T21:00:20.090269+00:00",
+        "context": {
+          "id": "01GXVM9WQT0XC2Z7QN7G07TH41",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "22.12",
+        "native_unit_of_measurement": "C"
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.shelly23hum",
+        "state": "42.5",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "friendly_name": "Shelly 23 Luftfeuchte"
+        },
+        "last_changed": "2023-04-12T21:00:20.080247+00:00",
+        "last_updated": "2023-04-12T21:00:20.080247+00:00",
+        "context": {
+          "id": "01GXVM9WQG1QT686C0A1W6CRE2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "42.5",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.raspi481_ram_auslastung_2",
+        "state": "12.69",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "friendly_name": "raspi481 ram2"
+        },
+        "last_changed": "2023-04-12T20:53:25.832266+00:00",
+        "last_updated": "2023-04-12T20:53:25.832266+00:00",
+        "context": {
+          "id": "01GXVKX8687HC8104K14YXP24R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "12.69",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_battery_level",
+        "state": "32",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-30",
+          "friendly_name": "iPhone von Torsten Battery Level"
+        },
+        "last_changed": "2023-04-12T20:45:16.851729+00:00",
+        "last_updated": "2023-04-12T20:45:16.851729+00:00",
+        "context": {
+          "id": "01GXVKEANKQ3TQTNJ2C3PBEMX4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 32,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-30",
+          "friendly_name": "iPhone von Torsten Battery State"
+        },
+        "last_changed": "2023-04-12T15:47:17.296290+00:00",
+        "last_updated": "2023-04-12T15:47:17.296290+00:00",
+        "context": {
+          "id": "01GXV2CP5G8HEAGBPMFQG40G2R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_storage",
+        "state": "50.85",
+        "attributes": {
+          "Available": "29,32 GB",
+          "Available (Important)": "40,19 GB",
+          "Available (Opportunistic)": "32,52 GB",
+          "Total": "63,94 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone von Torsten Storage"
+        },
+        "last_changed": "2023-04-12T20:45:16.853402+00:00",
+        "last_updated": "2023-04-12T20:45:16.853402+00:00",
+        "context": {
+          "id": "01GXVKEANN2091GFTN5Q0X84SX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "50.85",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone von Torsten BSSID"
+        },
+        "last_changed": "2023-04-12T15:47:17.297025+00:00",
+        "last_updated": "2023-04-12T15:47:17.297025+00:00",
+        "context": {
+          "id": "01GXV2CP5HRSGA3TN666RR4BWJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone von Torsten Connection Type"
+        },
+        "last_changed": "2023-04-12T15:47:17.297359+00:00",
+        "last_updated": "2023-04-12T15:47:17.297359+00:00",
+        "context": {
+          "id": "01GXV2CP5H93TNH9G2KCNEGRGD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_sim_1",
+        "state": "o2-de",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "o2-de",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "de",
+          "Mobile Country Code": "262",
+          "Mobile Network Code": "07",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone von Torsten SIM 1"
+        },
+        "last_changed": "2023-04-12T15:47:17.297673+00:00",
+        "last_updated": "2023-04-12T15:47:17.297673+00:00",
+        "context": {
+          "id": "01GXV2CP5H8G2VTW61TFX1KE5P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "o2-de",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone von Torsten SIM 2"
+        },
+        "last_changed": "2023-04-12T15:47:17.297973+00:00",
+        "last_updated": "2023-04-12T15:47:17.297973+00:00",
+        "context": {
+          "id": "01GXV2CP5HJSXA201YVEZAJAWH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_last_update_trigger",
+        "state": "Periodic",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone von Torsten Last Update Trigger"
+        },
+        "last_changed": "2023-04-12T17:38:41.945904+00:00",
+        "last_updated": "2023-04-12T17:38:41.945904+00:00",
+        "context": {
+          "id": "01GXV8RP4SGNHHD82ZNJJ565WP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone von Torsten SSID"
+        },
+        "last_changed": "2023-04-12T15:47:17.298520+00:00",
+        "last_updated": "2023-04-12T15:47:17.298520+00:00",
+        "context": {
+          "id": "01GXV2CP5JW5S3HFZ4PFK720ZP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.iphone_von_torsten_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "iPhone von Torsten Focus"
+        },
+        "last_changed": "2023-04-12T15:47:17.299217+00:00",
+        "last_updated": "2023-04-12T15:47:17.299217+00:00",
+        "context": {
+          "id": "01GXV2CP5KG561S9JSTFDSH9NJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone_von_torsten",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 79,
+          "latitude": 52.51043701171875,
+          "longitude": 13.457965745115864,
+          "gps_accuracy": 21,
+          "altitude": 0,
+          "friendly_name": "iPhone von Torsten"
+        },
+        "last_changed": "2023-04-12T15:47:17.300449+00:00",
+        "last_updated": "2023-04-12T15:47:17.300449+00:00",
+        "context": {
+          "id": "01GXV2CP5M1MMEGQ3E2E81J0J8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_von_torsten_geocoded_location",
+        "state": "Krossener Straße 18A\n10245 Berlin\nDeutschland",
+        "attributes": {
+          "Administrative Area": "N/A",
+          "Areas Of Interest": "N/A",
+          "Country": "Deutschland",
+          "Inland Water": "N/A",
+          "ISO Country Code": "DE",
+          "Locality": "Berlin",
+          "Location": [
+            52.51043701171875,
+            13.457965745115864
+          ],
+          "Name": "Krossener Straße 18A",
+          "Ocean": "N/A",
+          "Postal Code": "10245",
+          "Sub Administrative Area": "Berlin",
+          "Sub Locality": "Friedrichshain-Kreuzberg",
+          "Sub Thoroughfare": "18A",
+          "Thoroughfare": "Krossener Straße",
+          "Time Zone": "Europe/Berlin",
+          "Zones": [
+            "Home"
+          ],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone von Torsten Geocoded Location"
+        },
+        "last_changed": "2023-04-11T22:22:08.874143+00:00",
+        "last_updated": "2023-04-11T22:22:08.874143+00:00",
+        "context": {
+          "id": "01GXS6JZFA8HEAGBPMFQG40G2R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Krossener Straße 18A\n10245 Berlin\nDeutschland",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-04-12T00:24:54.140827+00:00"
+    }
+  ]
+}

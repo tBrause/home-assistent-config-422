@@ -1,0 +1,378 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b3f2cd6405ec5015c436aff38a7ad7a0",
+        "version": 1,
+        "domain": "raspberry_pi",
+        "title": "Raspberry Pi",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c1d61f40de4b99649adfe12b0f23cf94",
+        "version": 1,
+        "domain": "rpi_power",
+        "title": "Raspberry Pi Power Supply Checker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4f36b08468dec00154d4c173a48ede3f",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f7001afb7a0d36025b73eab6f727cd8e",
+        "version": 1,
+        "domain": "bluetooth",
+        "title": "E4:5F:01:84:70:96",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "E4:5F:01:84:70:96",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "35cdf8f62170010c09a8c7270586062f",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f3e14d66fc9cd1bb5b9415de81804b48",
+        "version": 1,
+        "domain": "mqtt",
+        "title": "Mosquitto broker",
+        "data": {
+          "broker": "core-mosquitto",
+          "port": 1883,
+          "username": "homeassistant",
+          "password": "queew5Doh6aivo5Door4ieTeenguz9CheeTh1thaiRai4ohni8jei5phaliexeey",
+          "discovery": true,
+          "discovery_prefix": "homeassistant"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "hassio",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ce154a282b8f1eea83f8534f6855d3e2",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "[TV] Samsung 7 Series (58)",
+        "data": {
+          "url": "http://192.168.178.29:9197/dmr",
+          "device_id": "uuid:9e335fee-9e50-4265-aa6b-9881c9b1fc37",
+          "type": "urn:schemas-upnp-org:device:MediaRenderer:1",
+          "mac": null
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:9e335fee-9e50-4265-aa6b-9881c9b1fc37",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "bb5c4cea695b07509a74448687df80ce",
+        "version": 1,
+        "domain": "ibeacon",
+        "title": "iBeacon Tracker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6287a73aea31f0a6d47a2f95e0ff064f",
+        "version": 1,
+        "domain": "shelly",
+        "title": "Shelly: shellyht-706823",
+        "data": {
+          "host": "192.168.178.25"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "C8C9A3706823",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "565be1f481f9ab24bdd972a2df51a097",
+        "version": 1,
+        "domain": "govee_ble",
+        "title": "H5102 BB2A",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "unique_id": "A4:C1:38:D8:BB:2A",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "15f0554272be29a56e7d4734b190b47d",
+        "version": 1,
+        "domain": "upnp",
+        "title": "InternetGatewayDeviceV2 - welcome",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-9f6c-E8DF7061205E",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "original_udn": "uuid:75802409-bccb-40e7-9f6c-E8DF7061205E",
+          "location": "http://192.168.178.1:49000/igd2desc.xml",
+          "mac_address": null,
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:75802409-bccb-40e7-9f6c-E8DF7061205E::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "3ba58fd1a4153aa3d4b75253576edea8",
+        "version": 1,
+        "domain": "upnp",
+        "title": "welcome",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-8e6c-E8DF7061205E",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:75802409-bccb-40e7-8e6c-E8DF7061205E",
+          "location": "http://192.168.178.1:49000/igddesc.xml",
+          "mac_address": null,
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:75802409-bccb-40e7-8e6c-E8DF7061205E::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "ffed6c84023e6df27ca953629a1022f3",
+        "version": 1,
+        "domain": "netatmo",
+        "title": "Home Assistant Cloud",
+        "data": {
+          "auth_implementation": "cloud",
+          "token": {
+            "scope": [
+              "access_camera",
+              "access_presence",
+              "read_bubendorff",
+              "read_camera",
+              "read_carbonmonoxidedetector",
+              "read_homecoach",
+              "read_magellan",
+              "read_mx",
+              "read_presence",
+              "read_smarther",
+              "read_smokedetector",
+              "read_station",
+              "read_thermostat",
+              "write_bubendorff",
+              "write_camera",
+              "write_magellan",
+              "write_mx",
+              "write_presence",
+              "write_smarther",
+              "write_thermostat"
+            ],
+            "access_token": "6331ed8e81fd85318a0843bd|1d42d6ef34e064357df059539faff4ac",
+            "refresh_token": "6331ed8e81fd85318a0843bd|c5c3b43f29c8da319f32faa203d0d228",
+            "expires_in": 10800,
+            "expire_in": 10800,
+            "restricted_access_token": "6331ed8e81fd85318a0843bd|b5f63cb45759d70d1b36a675e3559f77",
+            "restricted_refresh_token": "6331ed8e81fd85318a0843bd|6dcb42b52ccffb3ff513bb5e4e01d191",
+            "service": "netatmo",
+            "expires_at": 1681339998.7030003
+          },
+          "webhook_id": "b41cb0d7fc6b823b85c7f262414b2076e499dfa15d48d31fcd12c2013b7f8e1a"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "netatmo",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "248bbb9c2cc6c074f019399e5ad32242",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "eaed7ef7a69606d987837a1bbdfca74f",
+        "version": 1,
+        "domain": "thermobeacon",
+        "title": "Lanyard/mini hygrometer 0B54",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "8E:D6:00:00:0B:54",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2df9769a51dd87f454cb025c30cae995",
+        "version": 1,
+        "domain": "fritzbox",
+        "title": "AVM FRITZ!Box: welcome",
+        "data": {
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "123402409-bccb-40e7-8e6c-E8DF7061205E",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cce610b0ac0945d9d962830e16c09f22",
+        "version": 1,
+        "domain": "fritz",
+        "title": "FRITZ!Box Tools: welcome",
+        "data": {
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "123402409-bccb-40e7-8e6c-E8DF7061205E",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d20ec1fb42f5ff5b2883e74c548fb1b7",
+        "version": 2,
+        "domain": "samsungtv",
+        "title": "Samsung 7 Series (58) (UE58RU7179UXZG)",
+        "data": {
+          "host": "192.168.178.29",
+          "mac": "00:7c:2d:e5:cd:9e",
+          "model": "UE58RU7179UXZG"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "392c4f4b-f487-49c6-afaf-40b9b246767e",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3cf9a4edd67327f6135571f56d7ad422",
+        "version": 1,
+        "domain": "xiaomi_ble",
+        "title": "Temperature/Humidity Sensor FDE8 (LYWSD03MMC)",
+        "data": {
+          "bindkey": "4016df588d720d8ea8dfc77802369d56"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "unique_id": "A4:C1:38:FF:FD:E8",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2a0117b368aea1fdba282507abf09a2f",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone von Torsten",
+        "data": {
+          "app_id": "io.robbie.HomeAssistant",
+          "app_version": "2023.2 (2023.444)",
+          "device_id": "23EB3C0B-DE56-40A7-9775-E89D1963CD6F",
+          "manufacturer": "Apple",
+          "model": "iPhone11,8",
+          "supports_encryption": true,
+          "app_name": "Home Assistant",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "eCy7lf02N05VkeTjP0O6dS:APA91bE23ckkYoQMg4b8ru2vkvuOyunfrVMKI9P29LfrLF5gx1eywLp6yaPYlLbc9WiX96MNcA9oSl1EhmcyCHWCwXO-dvmri755bu9LMToLJkWCHPvRftKGq9br8vEFzg1B7RSP4nDV"
+          },
+          "os_version": "16.3.1",
+          "device_name": "iPhone von Torsten",
+          "os_name": "iOS",
+          "webhook_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b",
+          "secret": "7ebe1683bdf202d12623a92dc3f2b00146606c65e514ee8d3675ba0afdf7deba",
+          "user_id": "bc51762e0e6446799a0b741256f4f467",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-23EB3C0B-DE56-40A7-9775-E89D1963CD6F",
+        "disabled_by": null
+      }
+    ]
+  }
+}

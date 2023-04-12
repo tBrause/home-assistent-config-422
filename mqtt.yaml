@@ -1,0 +1,13 @@
+  sensor:
+    - name: Shelly 23 Temperatur
+      state_topic: shellies/shellyht-706823/sensor/temperature
+      unique_id: 123456
+      unit_of_measurement: "C"
+    - name: Shelly 23 Luftfeuchte
+      state_topic: shellies/shellyht-706823/sensor/humidity
+      unique_id: 1234567
+      unit_of_measurement: "%"
+    - name: Raspi481 Ram-Auslastung
+      state_topic: raspi481/ram_memusage
+      unique_id: 987
+      unit_of_measurement: "%"

@@ -1,0 +1,2 @@
+2023-04-12 17:46:57.578 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-04-12 17:47:18.429 WARNING (MainThread) [homeassistant.components.netatmo] Webhook not registered - https and port 443 is required to register the webhook

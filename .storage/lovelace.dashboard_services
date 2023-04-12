@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_services",
+  "data": {
+    "config": {
+      "title": "Services",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.mosquitto_broker_cpu_percent",
+                  "name": "CPU percent"
+                },
+                {
+                  "entity": "sensor.mosquitto_broker_memory_percent",
+                  "name": "Memory percent"
+                },
+                {
+                  "entity": "binary_sensor.mosquitto_broker_running",
+                  "name": "Running"
+                }
+              ],
+              "title": "Mosquitto broker"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.mqtt_explorer_cpu_percent",
+                  "name": "CPU percent"
+                },
+                {
+                  "entity": "sensor.mqtt_explorer_memory_percent",
+                  "name": "Memory percent"
+                },
+                {
+                  "entity": "binary_sensor.mqtt_explorer_running",
+                  "name": "Running"
+                }
+              ],
+              "title": "MQTT Explorer"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.nginx_home_assistant_ssl_proxy_cpu_percent",
+                  "name": "CPU percent"
+                },
+                {
+                  "entity": "sensor.nginx_home_assistant_ssl_proxy_memory_percent",
+                  "name": "Memory percent"
+                },
+                {
+                  "entity": "binary_sensor.nginx_home_assistant_ssl_proxy_running",
+                  "name": "Running"
+                }
+              ],
+              "title": "NGINX Home Assistant SSL proxy"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.terminal_ssh_cpu_percent",
+                  "name": "CPU percent"
+                },
+                {
+                  "entity": "sensor.terminal_ssh_memory_percent",
+                  "name": "Memory percent"
+                },
+                {
+                  "entity": "binary_sensor.terminal_ssh_running",
+                  "name": "Running"
+                }
+              ],
+              "title": "Terminal & SSH"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "binary_sensor.mosquitto_broker_running",
+                  "name": "Mosquitto broker"
+                },
+                {
+                  "entity": "binary_sensor.mqtt_explorer_running",
+                  "name": "MQTT Explorer"
+                },
+                {
+                  "entity": "binary_sensor.terminal_ssh_running",
+                  "name": "Terminal & SSH"
+                },
+                {
+                  "entity": "binary_sensor.file_editor_running",
+                  "name": "File editor"
+                },
+                {
+                  "entity": "binary_sensor.nginx_home_assistant_ssl_proxy_running",
+                  "name": "NGINX SSL proxy"
+                }
+              ],
+              "title": "Running",
+              "state_color": false
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.mosquitto_broker_cpu_percent",
+                  "name": "Mosquitto broker"
+                },
+                {
+                  "entity": "sensor.mqtt_explorer_cpu_percent"
+                },
+                {
+                  "entity": "sensor.terminal_ssh_cpu_percent"
+                },
+                {
+                  "entity": "sensor.file_editor_cpu_percent"
+                },
+                {
+                  "entity": "sensor.nginx_home_assistant_ssl_proxy_cpu_percent",
+                  "name": "NGINX SSL proxy CPU percent"
+                }
+              ],
+              "title": "CPU-Nutzung",
+              "state_color": false
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.mosquitto_broker_memory_percent"
+                },
+                {
+                  "entity": "sensor.mqtt_explorer_memory_percent"
+                },
+                {
+                  "entity": "sensor.terminal_ssh_memory_percent"
+                },
+                {
+                  "entity": "sensor.file_editor_memory_percent"
+                },
+                {
+                  "entity": "sensor.nginx_home_assistant_ssl_proxy_memory_percent",
+                  "name": "NGINX SSL proxy Memory percent"
+                }
+              ],
+              "title": "RAM-Nutzung"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
