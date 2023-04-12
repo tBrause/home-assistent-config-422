@@ -26,7 +26,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -54,7 +54,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -82,7 +82,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -110,7 +110,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -138,7 +138,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -166,7 +166,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -194,7 +194,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -222,7 +222,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -250,7 +250,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -278,7 +278,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -306,7 +306,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -334,7 +334,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -362,73 +362,73 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.shelly23temp",
-        "state": "22.12",
+        "state": "21.62",
         "attributes": {
           "unit_of_measurement": "C",
           "friendly_name": "Shelly 23 Temperatur"
         },
-        "last_changed": "2023-04-12T21:00:20.090269+00:00",
-        "last_updated": "2023-04-12T21:00:20.090269+00:00",
+        "last_changed": "2023-04-12T21:10:44.677923+00:00",
+        "last_updated": "2023-04-12T21:10:44.677923+00:00",
         "context": {
-          "id": "01GXVM9WQT0XC2Z7QN7G07TH41",
+          "id": "01GXVMWYP5CWYB6ANP8HCSMYZ9",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "22.12",
+        "native_value": "21.62",
         "native_unit_of_measurement": "C"
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.shelly23hum",
-        "state": "42.5",
+        "state": "44.0",
         "attributes": {
           "unit_of_measurement": "%",
           "friendly_name": "Shelly 23 Luftfeuchte"
         },
-        "last_changed": "2023-04-12T21:00:20.080247+00:00",
-        "last_updated": "2023-04-12T21:00:20.080247+00:00",
+        "last_changed": "2023-04-12T21:10:44.669293+00:00",
+        "last_updated": "2023-04-12T21:10:44.669293+00:00",
         "context": {
-          "id": "01GXVM9WQG1QT686C0A1W6CRE2",
+          "id": "01GXVMWYNX6T7XYYPCY30CJBKE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "42.5",
+        "native_value": "44.0",
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.raspi481_ram_auslastung_2",
-        "state": "12.69",
+        "state": "12.71",
         "attributes": {
           "unit_of_measurement": "%",
           "friendly_name": "raspi481 ram2"
         },
-        "last_changed": "2023-04-12T20:53:25.832266+00:00",
-        "last_updated": "2023-04-12T20:53:25.832266+00:00",
+        "last_changed": "2023-04-12T21:03:25.833870+00:00",
+        "last_updated": "2023-04-12T21:03:25.833870+00:00",
         "context": {
-          "id": "01GXVKX8687HC8104K14YXP24R",
+          "id": "01GXVMFJ49V8S1Z6RCH2Y0QCDY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "12.69",
+        "native_value": "12.71",
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -452,7 +452,7 @@
         "native_value": 32,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -475,34 +475,34 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.iphone_von_torsten_storage",
-        "state": "50.85",
+        "state": "50.83",
         "attributes": {
-          "Available": "29,32 GB",
-          "Available (Important)": "40,19 GB",
-          "Available (Opportunistic)": "32,52 GB",
+          "Available": "29,30 GB",
+          "Available (Important)": "40,17 GB",
+          "Available (Opportunistic)": "32,50 GB",
           "Total": "63,94 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "iPhone von Torsten Storage"
         },
-        "last_changed": "2023-04-12T20:45:16.853402+00:00",
-        "last_updated": "2023-04-12T20:45:16.853402+00:00",
+        "last_changed": "2023-04-12T21:06:57.182889+00:00",
+        "last_updated": "2023-04-12T21:06:57.182889+00:00",
         "context": {
-          "id": "01GXVKEANN2091GFTN5Q0X84SX",
+          "id": "01GXVMP0GYYJ6TVY8KDV9T8H9J",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "50.85",
+        "native_value": "50.83",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -524,7 +524,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -546,7 +546,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -575,7 +575,7 @@
         "native_value": "o2-de",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -603,7 +603,7 @@
         "native_value": "N/A",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -625,7 +625,7 @@
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -647,7 +647,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -666,7 +666,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
@@ -690,7 +690,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:02:18.429443+00:00"
+      "last_seen": "2023-04-12T21:17:18.430135+00:00"
     },
     {
       "state": {
