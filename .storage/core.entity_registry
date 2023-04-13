@@ -2916,7 +2916,7 @@
         "config_entry_id": "248bbb9c2cc6c074f019399e5ad32242",
         "device_class": null,
         "device_id": "48865dd6c6256ea1f147196c0b8a2eff",
-        "disabled_by": null,
+        "disabled_by": "config_entry",
         "entity_category": null,
         "entity_id": "sensor.hacs",
         "hidden_by": null,

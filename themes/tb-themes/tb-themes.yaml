@@ -9,6 +9,7 @@ tb:
   app-header-background-color: "#226e93"
   app-header-text-color: "#f1f1f1"
   app-toolbar-font-size: "1em"
+  paper-font-body1_-_font-weight: "700"
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -27,6 +28,10 @@ tb:
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Input
+  # mdc-text-field-color: "#fff"
+  menu-color: "#fff"
+  text-content-font-size: "4rem"
+  mdc-text-field-ink-color: "#fff"
   input-ink-color: var(--primary-text-color)
   input-fill-color: transparent
   input-disabled-fill-color: transparent
