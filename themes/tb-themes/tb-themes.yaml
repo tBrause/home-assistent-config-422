@@ -13,7 +13,7 @@ tb:
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
   text-primary-color: "#FFF"
-  disabled-text-color: "#555" # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
+  disabled-text-color: "#fff" # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
   sidebar-background-color: "#222"
