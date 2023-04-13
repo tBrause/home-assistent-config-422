@@ -26,7 +26,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -54,17 +54,17 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
         "entity_id": "update.home_assistant_core_update",
-        "state": "off",
+        "state": "on",
         "attributes": {
           "auto_update": false,
           "installed_version": "2023.4.2",
           "in_progress": false,
-          "latest_version": "2023.4.2",
+          "latest_version": "2023.4.3",
           "release_summary": null,
           "release_url": "https://www.home-assistant.io/latest-release-notes/",
           "skipped_version": null,
@@ -73,16 +73,16 @@
           "friendly_name": "Home Assistant Core Update",
           "supported_features": 11
         },
-        "last_changed": "2023-04-12T15:47:09.130958+00:00",
-        "last_updated": "2023-04-12T15:47:09.130958+00:00",
+        "last_changed": "2023-04-13T04:52:29.533533+00:00",
+        "last_updated": "2023-04-13T04:52:29.533533+00:00",
         "context": {
-          "id": "01GXV2CE6A67936W31T18Q472D",
+          "id": "01GXWFAE6XAYMS08MZZFPD4R0P",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -110,7 +110,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -138,7 +138,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -166,7 +166,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -194,7 +194,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -222,7 +222,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -250,7 +250,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -278,7 +278,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -306,7 +306,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -334,7 +334,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -362,97 +362,97 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.shelly23temp",
-        "state": "20.62",
+        "state": "20.12",
         "attributes": {
           "unit_of_measurement": "C",
           "friendly_name": "Shelly 23 Temperatur"
         },
-        "last_changed": "2023-04-12T21:42:41.340698+00:00",
-        "last_updated": "2023-04-12T21:42:41.340698+00:00",
+        "last_changed": "2023-04-13T10:58:08.528187+00:00",
+        "last_updated": "2023-04-13T10:58:08.528187+00:00",
         "context": {
-          "id": "01GXVPQEDWTRMYJSHXYKG3CP0A",
+          "id": "01GXX47Z0G02HSDCTKKG9BWHA6",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "20.62",
+        "native_value": "20.12",
         "native_unit_of_measurement": "C"
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.shelly23hum",
-        "state": "45.5",
+        "state": "46.5",
         "attributes": {
           "unit_of_measurement": "%",
           "friendly_name": "Shelly 23 Luftfeuchte"
         },
-        "last_changed": "2023-04-12T21:42:41.327361+00:00",
-        "last_updated": "2023-04-12T21:42:41.327361+00:00",
+        "last_changed": "2023-04-13T04:05:17.069240+00:00",
+        "last_updated": "2023-04-13T04:05:17.069240+00:00",
         "context": {
-          "id": "01GXVPQEDF4A36A99534DSAK5P",
+          "id": "01GXWCM04D8E883C2WYA3E7VSF",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "45.5",
+        "native_value": "46.5",
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.raspi481_ram_auslastung_2",
-        "state": "14.34",
+        "state": "13.09",
         "attributes": {
           "unit_of_measurement": "%",
           "friendly_name": "raspi481 ram2"
         },
-        "last_changed": "2023-04-12T21:43:25.838716+00:00",
-        "last_updated": "2023-04-12T21:43:25.838716+00:00",
+        "last_changed": "2023-04-13T14:03:26.144571+00:00",
+        "last_updated": "2023-04-13T14:03:26.144571+00:00",
         "context": {
-          "id": "01GXVPRSWEY3NNNW9DYZM8A700",
+          "id": "01GXXEV820Q6NEH6MEM5KQB2VR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "14.34",
+        "native_value": "13.09",
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.iphone_von_torsten_battery_level",
-        "state": "31",
+        "state": "5",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-30",
+          "icon": "mdi:battery-outline",
           "friendly_name": "iPhone von Torsten Battery Level"
         },
-        "last_changed": "2023-04-12T21:26:08.346544+00:00",
-        "last_updated": "2023-04-12T21:26:08.346544+00:00",
+        "last_changed": "2023-04-13T14:17:42.641067+00:00",
+        "last_updated": "2023-04-13T14:17:42.641067+00:00",
         "context": {
-          "id": "01GXVNS4PTRTXC8YM3XJHSMRMM",
+          "id": "01GXXFNCFH9089NGAYGDHBEQAJ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 31,
+        "native_value": 5,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -460,13 +460,13 @@
         "state": "Not Charging",
         "attributes": {
           "Low Power Mode": false,
-          "icon": "mdi:battery-30",
+          "icon": "mdi:battery-outline",
           "friendly_name": "iPhone von Torsten Battery State"
         },
         "last_changed": "2023-04-12T15:47:17.296290+00:00",
-        "last_updated": "2023-04-12T15:47:17.296290+00:00",
+        "last_updated": "2023-04-13T11:11:26.028571+00:00",
         "context": {
-          "id": "01GXV2CP5G8HEAGBPMFQG40G2R",
+          "id": "01GXX509TC662B9Z8S8V7J0425",
           "parent_id": null,
           "user_id": null
         }
@@ -475,34 +475,34 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.iphone_von_torsten_storage",
-        "state": "50.82",
+        "state": "50.64",
         "attributes": {
-          "Available": "29,30 GB",
-          "Available (Important)": "40,16 GB",
-          "Available (Opportunistic)": "32,50 GB",
+          "Available": "29,18 GB",
+          "Available (Important)": "39,07 GB",
+          "Available (Opportunistic)": "32,38 GB",
           "Total": "63,94 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "iPhone von Torsten Storage"
         },
-        "last_changed": "2023-04-12T21:45:50.885205+00:00",
-        "last_updated": "2023-04-12T21:45:50.885205+00:00",
+        "last_changed": "2023-04-13T14:17:42.643306+00:00",
+        "last_updated": "2023-04-13T14:17:42.643306+00:00",
         "context": {
-          "id": "01GXVPX7H508Q5Z5VWGNE2Q3JW",
+          "id": "01GXXFNCFKBKHY0G1YC4FAJA77",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "50.82",
+        "native_value": "50.64",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -524,7 +524,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -546,7 +546,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -575,7 +575,7 @@
         "native_value": "o2-de",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -603,7 +603,7 @@
         "native_value": "N/A",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -613,10 +613,10 @@
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "iPhone von Torsten Last Update Trigger"
         },
-        "last_changed": "2023-04-12T17:38:41.945904+00:00",
-        "last_updated": "2023-04-12T17:38:41.945904+00:00",
+        "last_changed": "2023-04-13T10:49:40.640750+00:00",
+        "last_updated": "2023-04-13T10:49:40.640750+00:00",
         "context": {
-          "id": "01GXV8RP4SGNHHD82ZNJJ565WP",
+          "id": "01GXX3RF10VQ6VG0SBV2F6YV8K",
           "parent_id": null,
           "user_id": null
         }
@@ -625,7 +625,7 @@
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -647,7 +647,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -666,7 +666,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {
@@ -690,7 +690,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2023-04-12T21:47:18.432017+00:00"
+      "last_seen": "2023-04-13T14:32:18.501343+00:00"
     },
     {
       "state": {

@@ -1,3 +1,9 @@
 2023-04-12 17:46:57.578 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
 2023-04-12 17:47:18.429 WARNING (MainThread) [homeassistant.components.netatmo] Webhook not registered - https and port 443 is required to register the webhook
 2023-04-12 23:47:18.666 ERROR (MainThread) [custom_components.hacs] HACS is disabled - invalid_token
+2023-04-13 12:31:57.506 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 332, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
