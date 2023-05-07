@@ -8,7 +8,8 @@
         "name": "Torsten Brause",
         "user_id": "bc51762e0e6446799a0b741256f4f467",
         "device_trackers": [
-          "device_tracker.iphone_von_torsten"
+          "device_tracker.iphone_von_torsten",
+          "device_tracker.iphone_von_torsten2"
         ],
         "id": "torsten_brause"
       }

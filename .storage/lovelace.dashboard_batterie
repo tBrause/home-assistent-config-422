@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_batterie",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entity",
+              "entity": "sensor.h5102_bb2a_battery",
+              "unit": "%"
+            },
+            {
+              "type": "entity",
+              "unit": "%",
+              "entity": "sensor.temperature_humidity_sensor_fde8_battery"
+            },
+            {
+              "type": "entity",
+              "unit": "%",
+              "entity": "sensor.temperature_humidity_sensor_e0ce_battery"
+            },
+            {
+              "type": "entity",
+              "unit": "%",
+              "entity": "sensor.weather_station_weather_station_weather_station_outdoor_battery_percent"
+            },
+            {
+              "type": "entity",
+              "unit": "%",
+              "entity": "sensor.weather_station_weather_station_weather_station_regenmesser_battery_percent"
+            }
+          ]
+        }
+      ],
+      "title": "Batterien"
+    }
+  }
+}

@@ -108,6 +108,45 @@
               "type": "entity",
               "entity": "sensor.raspi481_ram_auslastung_2",
               "icon": "mdi:memory"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.temperature_humidity_sensor_fde8_battery",
+                  "name": "Battery"
+                },
+                {
+                  "entity": "sensor.temperature_humidity_sensor_fde8_signal_strength",
+                  "name": "Signal Strength"
+                },
+                {
+                  "entity": "sensor.temperature_humidity_sensor_fde8_voltage",
+                  "name": "Voltage"
+                }
+              ],
+              "title": "Temperature/Humidity Sensor FDE8"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.temperature_humidity_sensor_e0ce_signal_strength"
+              ],
+              "title": "Temperature/Humidity Sensor E0CE"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.temperature_humidity_sensor_e0ce_signal_strength",
+                  "name": "Signal Strength"
+                },
+                {
+                  "entity": "sensor.temperature_humidity_sensor_e0ce_voltage",
+                  "name": "Voltage"
+                }
+              ],
+              "title": "Temperature/Humidity Sensor E0CE"
             }
           ]
         }

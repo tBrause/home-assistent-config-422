@@ -19,7 +19,11 @@
         "id": "5ef3605c3706b289f068350015a74782",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "problem",
         "original_icon": "mdi:raspberry-pi",
         "original_name": "RPi Power status",
@@ -44,7 +48,11 @@
         "id": "788c625904f95687e99ffe73b788ba85",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -69,7 +77,11 @@
         "id": "0577cad37f4ab4dfdc2ca4a8e2aa1c60",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -94,7 +106,11 @@
         "id": "e3d5bd56d395089be060e535ababcf5b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -119,13 +135,17 @@
         "id": "088ddc14267fad42c90e959953d2166b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "home_assistant_os_version",
         "unit_of_measurement": null
       },
@@ -144,13 +164,17 @@
         "id": "8e0a8bc94ccac5333e08bf998063dd05",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "home_assistant_os_version_latest",
         "unit_of_measurement": null
       },
@@ -169,7 +193,11 @@
         "id": "a88e74ea91ca5c2891298f96bfd2e084",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Torsten Brause",
@@ -194,7 +222,11 @@
         "id": "2760b041f6e581058e298bd1f87a815e",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Home",
@@ -219,7 +251,11 @@
         "id": "8babe8ea7b5dd319a930099927adf1d8",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Home hourly",
@@ -244,13 +280,17 @@
         "id": "c8daa91b7446ee19e90ed3987eb2b873",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "core_configurator_state",
         "unit_of_measurement": null
       },
@@ -269,13 +309,17 @@
         "id": "76b279f4df6f823149a3253a248b9337",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "core_configurator_version",
         "unit_of_measurement": null
       },
@@ -294,13 +338,17 @@
         "id": "f024a9bfd8a5c239dbad156f616f5bc9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "core_configurator_version_latest",
         "unit_of_measurement": null
       },
@@ -321,13 +369,17 @@
         "id": "a7603cc08663cde6fd8bf12a25373105",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "core_configurator_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -348,13 +400,17 @@
         "id": "1305f46dfc62f7a32d0f3b169f1e8bc8",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "core_configurator_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -373,7 +429,11 @@
         "id": "18d6dc72316b5f8917fdc809fc6c1153",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -398,13 +458,17 @@
         "id": "c22bf0bca87c0c93f4659a8275a14218",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "core_ssh_state",
         "unit_of_measurement": null
       },
@@ -423,7 +487,11 @@
         "id": "851fc8c925bba4a605611c29b7d060bf",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -448,13 +516,17 @@
         "id": "cbda9953c89af5c2a7c0a7a94b3b4837",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "core_ssh_version",
         "unit_of_measurement": null
       },
@@ -473,13 +545,17 @@
         "id": "0fa6d1d9cf142cedd1299fde68eb04bb",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "core_ssh_version_latest",
         "unit_of_measurement": null
       },
@@ -500,13 +576,17 @@
         "id": "3d335fd0ed0d05eda6b07d016afe5536",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "core_ssh_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -527,13 +607,17 @@
         "id": "27adbd4ede94ac5a26965e05c1d648c5",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "core_ssh_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -552,13 +636,17 @@
         "id": "3460ab1a1e33ed04e765879b00169cc4",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "core_mosquitto_state",
         "unit_of_measurement": null
       },
@@ -577,13 +665,17 @@
         "id": "c235858ff4226fd8f25211746b4e71a3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "core_mosquitto_version",
         "unit_of_measurement": null
       },
@@ -602,13 +694,17 @@
         "id": "eb70d13cf7fd2c3abb6d909d272d71fd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "core_mosquitto_version_latest",
         "unit_of_measurement": null
       },
@@ -629,13 +725,17 @@
         "id": "587c2271fa058705984fba77e7f3e55f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "core_mosquitto_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -656,13 +756,17 @@
         "id": "b0b05ebfe06946032588cd6cf6b80089",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "core_mosquitto_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -681,7 +785,11 @@
         "id": "d80474d8763ffa38f0ba5604d5a8707f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -706,13 +814,17 @@
         "id": "3ddf6605371571dad8e452285b926157",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "77c0fc0d_mqtt-explorer_state",
         "unit_of_measurement": null
       },
@@ -731,7 +843,11 @@
         "id": "3ee3ca7e3fc27b116de59888610a5ef5",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -756,13 +872,17 @@
         "id": "04b7c5265c5ae76bfb400d7a3423897c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "77c0fc0d_mqtt-explorer_version",
         "unit_of_measurement": null
       },
@@ -781,13 +901,17 @@
         "id": "2776a21eb3cc3ea5b2ee4927b28ead77",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "77c0fc0d_mqtt-explorer_version_latest",
         "unit_of_measurement": null
       },
@@ -808,13 +932,17 @@
         "id": "c893454856dff5edf7a0b3659f573bd3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "77c0fc0d_mqtt-explorer_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -835,13 +963,17 @@
         "id": "538c151af1c92ca4f2a507f029a52f92",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "77c0fc0d_mqtt-explorer_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -849,7 +981,7 @@
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
         "device_class": null,
         "device_id": "2f83fdee94e4406590c54c2ad03f455c",
         "disabled_by": null,
@@ -860,7 +992,11 @@
         "id": "7c002adbc46b04f8d853cf9bbeaa52a0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "iPhone von Torsten",
@@ -888,6 +1024,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": null,
@@ -917,6 +1056,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": null,
@@ -943,13 +1085,17 @@
         "id": "36ee5f4b12e5665a0093aac48e81136b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "core_nginx_proxy_state",
         "unit_of_measurement": null
       },
@@ -968,13 +1114,17 @@
         "id": "f9d54fd66925eae4c3b72944d9425eb4",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "core_nginx_proxy_version",
         "unit_of_measurement": null
       },
@@ -993,13 +1143,17 @@
         "id": "db6ee1bd665755a85b90eb25d42ff076",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "core_nginx_proxy_version_latest",
         "unit_of_measurement": null
       },
@@ -1020,13 +1174,17 @@
         "id": "1829f1c31d82f570416400eb22222e04",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "core_nginx_proxy_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -1047,13 +1205,17 @@
         "id": "4702c5200fdedead40f7eac37506de75",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "core_nginx_proxy_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -1072,7 +1234,11 @@
         "id": "1f51c85e907b90d6e16752bdbd8080bc",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -1097,13 +1263,17 @@
         "id": "88ee39045ea1b3eab5d79a92d8be036a",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "a0d7b954_nodered_state",
         "unit_of_measurement": null
       },
@@ -1122,13 +1292,17 @@
         "id": "a9682887a792381d23a7a749c3d10818",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "a0d7b954_nodered_version",
         "unit_of_measurement": null
       },
@@ -1147,13 +1321,17 @@
         "id": "07c33fc699566cf2269e55b883b2d5bf",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "a0d7b954_nodered_version_latest",
         "unit_of_measurement": null
       },
@@ -1174,13 +1352,17 @@
         "id": "e2cbbf672a4fbf44eb154fa8c8f34374",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "a0d7b954_nodered_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -1201,13 +1383,17 @@
         "id": "207ad8f072126b109386e2ae745f26fd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "a0d7b954_nodered_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -1226,7 +1412,11 @@
         "id": "95518a22b35f27092fb6bb6ea534ae47",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -1234,160 +1424,6 @@
         "supported_features": 25,
         "translation_key": null,
         "unique_id": "a0d7b954_nodered_version_latest",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
-        "device_class": null,
-        "device_id": "905d1ee3d91ff4ca40120762af49ddfa",
-        "disabled_by": "integration",
-        "entity_category": null,
-        "entity_id": "binary_sensor.let_s_encrypt_running",
-        "hidden_by": null,
-        "icon": null,
-        "id": "119e99114fb23ac22f4706218e9c8c56",
-        "has_entity_name": true,
-        "name": null,
-        "options": {},
-        "original_device_class": "running",
-        "original_icon": null,
-        "original_name": "Running",
-        "platform": "hassio",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "core_letsencrypt_state",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
-        "device_class": null,
-        "device_id": "905d1ee3d91ff4ca40120762af49ddfa",
-        "disabled_by": "integration",
-        "entity_category": null,
-        "entity_id": "sensor.let_s_encrypt_version",
-        "hidden_by": null,
-        "icon": null,
-        "id": "7dbf232a08bddf9bd956555f5658a529",
-        "has_entity_name": true,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Version",
-        "platform": "hassio",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "core_letsencrypt_version",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
-        "device_class": null,
-        "device_id": "905d1ee3d91ff4ca40120762af49ddfa",
-        "disabled_by": "integration",
-        "entity_category": null,
-        "entity_id": "sensor.let_s_encrypt_newest_version",
-        "hidden_by": null,
-        "icon": null,
-        "id": "d1660079dcf6cfc7d09deb8f23e5ba52",
-        "has_entity_name": true,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Newest version",
-        "platform": "hassio",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "core_letsencrypt_version_latest",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
-        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
-        "device_class": null,
-        "device_id": "905d1ee3d91ff4ca40120762af49ddfa",
-        "disabled_by": "integration",
-        "entity_category": null,
-        "entity_id": "sensor.let_s_encrypt_cpu_percent",
-        "hidden_by": null,
-        "icon": null,
-        "id": "f6e8b4cb3075ed8a08e342fd4ade0c58",
-        "has_entity_name": true,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
-        "platform": "hassio",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "core_letsencrypt_cpu_percent",
-        "unit_of_measurement": "%"
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
-        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
-        "device_class": null,
-        "device_id": "905d1ee3d91ff4ca40120762af49ddfa",
-        "disabled_by": "integration",
-        "entity_category": null,
-        "entity_id": "sensor.let_s_encrypt_memory_percent",
-        "hidden_by": null,
-        "icon": null,
-        "id": "9cec8ea372c1abcf98720158dfede772",
-        "has_entity_name": true,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
-        "platform": "hassio",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "core_letsencrypt_memory_percent",
-        "unit_of_measurement": "%"
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
-        "device_class": null,
-        "device_id": "905d1ee3d91ff4ca40120762af49ddfa",
-        "disabled_by": null,
-        "entity_category": "config",
-        "entity_id": "update.let_s_encrypt_update",
-        "hidden_by": null,
-        "icon": null,
-        "id": "42a75bfd49181518bb806cde0cf77a11",
-        "has_entity_name": true,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Update",
-        "platform": "hassio",
-        "supported_features": 25,
-        "translation_key": null,
-        "unique_id": "core_letsencrypt_version_latest",
         "unit_of_measurement": null
       },
       {
@@ -1405,7 +1441,11 @@
         "id": "816c973ccb16289c3f7549d1b92d8891",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bluetooth-connect",
         "original_name": null,
@@ -1435,6 +1475,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": "signal_strength",
@@ -1466,6 +1509,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": "signal_strength",
@@ -1494,7 +1540,11 @@
         "id": "9c80af2595008d2622c6be7f5bdfeb96",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "distance",
         "original_icon": "mdi:signal-distance-variant",
         "original_name": "Estimated Distance",
@@ -1519,7 +1569,11 @@
         "id": "73107a97af7f7d9dbac76f079ef3176b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Vendor",
@@ -1546,7 +1600,11 @@
         "id": "fe0d22623e784f0b37b615b9b6b477d9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -1573,7 +1631,11 @@
         "id": "0c7fb40fa7f9598758022237ac57e5be",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -1600,7 +1662,11 @@
         "id": "efaf3d63de1b6cbd9841420128b279ba",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -1630,6 +1696,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": "signal_strength",
@@ -1658,7 +1727,11 @@
         "id": "33d83a26b9ee0a37a2aec8924345d205",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome B received",
@@ -1685,7 +1758,11 @@
         "id": "b81b8a6ce3dbdbef4a82f222697845f8",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome B sent",
@@ -1712,7 +1789,11 @@
         "id": "9d3bcd4a792a2840a279dcd952bb661d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome packets received",
@@ -1739,7 +1820,11 @@
         "id": "e92fa67364e82414fb7bc2f3323f61b2",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome packets sent",
@@ -1766,7 +1851,11 @@
         "id": "9b8cca4df2e5ffb4c9ab7296b7afbddc",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_rate",
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome KiB/s received",
@@ -1793,7 +1882,11 @@
         "id": "300400d7066837d28dd8ebd4ebfb9b9b",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_rate",
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome KiB/s sent",
@@ -1820,7 +1913,11 @@
         "id": "6d4f40a98ad247fe80a1a69d8dffbed2",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome packets/s received",
@@ -1847,7 +1944,11 @@
         "id": "aba73fe0611e2c2ffbc5a6480cb34519",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "InternetGatewayDeviceV2 - welcome packets/s sent",
@@ -1872,7 +1973,11 @@
         "id": "a42b1bf9fcc8b0445d918c45083b6ff5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "connectivity",
         "original_icon": null,
         "original_name": "welcome wan status",
@@ -1899,7 +2004,11 @@
         "id": "bb63f1f30c70a78785077eb30c575b46",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "welcome B received",
@@ -1926,7 +2035,11 @@
         "id": "4f7079c5f65cef4682c9d98b1d7d70a5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": "mdi:server-network",
         "original_name": "welcome B sent",
@@ -1953,7 +2066,11 @@
         "id": "2347885b2b0f35720e4b792b9a06c989",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "welcome packets received",
@@ -1980,7 +2097,11 @@
         "id": "a117612e2f209866b2488c0ce82bf8be",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "welcome packets sent",
@@ -2005,7 +2126,11 @@
         "id": "8ce0a5c2714e7367a0c02748d6f0804f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "welcome External IP",
@@ -2030,7 +2155,11 @@
         "id": "390cd309e3c3ec0662356cf483d33b88",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "welcome Uptime",
@@ -2055,7 +2184,11 @@
         "id": "6f07c507e6306e12aa0dd7a8f8e5b98b",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "welcome wan status",
@@ -2082,7 +2215,11 @@
         "id": "305b6caf5b5c6e1789e8768034618bc3",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_rate",
         "original_icon": "mdi:server-network",
         "original_name": "welcome KiB/s received",
@@ -2109,7 +2246,11 @@
         "id": "2b79fd080eec907cb2f96a13b4bcaeba",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_rate",
         "original_icon": "mdi:server-network",
         "original_name": "welcome KiB/s sent",
@@ -2136,7 +2277,11 @@
         "id": "7fe4071905bc00c434e3cbf37c044b17",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "welcome packets/s received",
@@ -2163,7 +2308,11 @@
         "id": "3facd8b5993eb5850d1e1776cc267104",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:server-network",
         "original_name": "welcome packets/s sent",
@@ -2190,7 +2339,11 @@
         "id": "e4dd5837916d7f18b5913a0734a56a35",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -2215,7 +2368,11 @@
         "id": "f5d55e4bb19914a83daaba895ca1804d",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:trending-up",
         "original_name": "Temperature trend",
@@ -2242,7 +2399,11 @@
         "id": "9830c7fb133521ff5e8a258b9d517e86",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "carbon_dioxide",
         "original_icon": null,
         "original_name": "CO2",
@@ -2272,6 +2433,9 @@
         "options": {
           "sensor.private": {
             "suggested_unit_of_measurement": "hPa"
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": "atmospheric_pressure",
@@ -2298,7 +2462,11 @@
         "id": "ebb3fa284b7bb9273cb7db98d3e5c75f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:trending-up",
         "original_name": "Pressure trend",
@@ -2325,7 +2493,11 @@
         "id": "765028360f3ecdef66c1e814a3117566",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "sound_pressure",
         "original_icon": null,
         "original_name": "Noise",
@@ -2352,7 +2524,11 @@
         "id": "2e5f09fcdf6d73a94d4cdee62b1b821c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -2377,7 +2553,11 @@
         "id": "6a6870ddb9ba1a8e8064e15edf55d62b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:signal",
         "original_name": "Reachability",
@@ -2402,7 +2582,11 @@
         "id": "c080f39427b37757b51986e35f8705f6",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:wifi",
         "original_name": "Wifi",
@@ -2429,7 +2613,11 @@
         "id": "f9c42658961706ed4aaa0abb909e2926",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -2454,7 +2642,11 @@
         "id": "267309f974d54cc601f14d2ca5aab612",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:trending-up",
         "original_name": "Temperature trend",
@@ -2481,7 +2673,11 @@
         "id": "73178008ed942d53a362da51291a813c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -2508,7 +2704,11 @@
         "id": "05949e9074381aa406edfba146a7fedd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery Percent",
@@ -2533,7 +2733,11 @@
         "id": "f69fd7d78dd47fb5fee1dba4a646f945",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:signal",
         "original_name": "Reachability",
@@ -2558,7 +2762,11 @@
         "id": "cae1b14658f5376bbc61ff162e750563",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:signal",
         "original_name": "Radio",
@@ -2585,7 +2793,11 @@
         "id": "27b8d0a4965b986f1028f25711bb5d4e",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "precipitation",
         "original_icon": null,
         "original_name": "Rain",
@@ -2612,7 +2824,11 @@
         "id": "bd9eb122dc9962af7806b6a0f976b95f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "precipitation",
         "original_icon": null,
         "original_name": "Rain last hour",
@@ -2639,7 +2855,11 @@
         "id": "15b4270b53c43c523ff72c78fb56b533",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "precipitation",
         "original_icon": null,
         "original_name": "Rain today",
@@ -2666,7 +2886,11 @@
         "id": "b5fffe398e4c6528464ae92af9db5f05",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery Percent",
@@ -2691,7 +2915,11 @@
         "id": "8ad98c131d2fd1cda02559b8f8cc39bd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:signal",
         "original_name": "Reachability",
@@ -2716,7 +2944,11 @@
         "id": "e5d2ea5f3dc12e6eb4e25ef95365e2b1",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:signal",
         "original_name": "Radio",
@@ -2744,6 +2976,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": null,
@@ -2770,13 +3005,17 @@
         "id": "bc6e614de5cb7d0b08cd6ffed8a01a1d",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "a0d7b954_influxdb_state",
         "unit_of_measurement": null
       },
@@ -2795,13 +3034,17 @@
         "id": "2fa55d9373b7a8462ce12d0cca35c220",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "a0d7b954_influxdb_version",
         "unit_of_measurement": null
       },
@@ -2820,13 +3063,17 @@
         "id": "a31fc3e1364086f0590e83d35f6826b3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "a0d7b954_influxdb_version_latest",
         "unit_of_measurement": null
       },
@@ -2847,13 +3094,17 @@
         "id": "27d0a4a215c97885b41962ed331c6452",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "a0d7b954_influxdb_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -2874,13 +3125,17 @@
         "id": "d040792168b358c8e3afc9aa39afa7ea",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "a0d7b954_influxdb_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -2899,7 +3154,11 @@
         "id": "4a8d2317f948af652a0cb1ad4a0129e1",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -2924,7 +3183,11 @@
         "id": "df48ef702b9aa44d2584a899f0bb661a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "hacs:hacs",
         "original_name": "hacs",
@@ -2951,13 +3214,17 @@
         "id": "734a002e764bb2080bbd33b5bc3b0789",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "home_assistant_core_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -2978,13 +3245,17 @@
         "id": "2676222a04e742435f3df814c8ccbd0f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "home_assistant_core_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -3005,13 +3276,17 @@
         "id": "d4d19a221c43673ed267b3f20fa67af5",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "home_assistant_supervisor_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -3032,13 +3307,17 @@
         "id": "4531fcd431e17a9dd1bc379a4957d689",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "home_assistant_supervisor_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -3057,13 +3336,17 @@
         "id": "7b7c6f2a2285fcd3d9ce46dac28f6cf7",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "OS Agent version",
+        "original_name": "OS Agent Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "agent_version",
         "unique_id": "home_assistant_host_agent_version",
         "unit_of_measurement": null
       },
@@ -3082,13 +3365,17 @@
         "id": "38f2f924ee36fce5f651786d2564cd3a",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Apparmor version",
+        "original_name": "AppArmor-Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "apparmor_version",
         "unique_id": "home_assistant_host_apparmor_version",
         "unit_of_measurement": null
       },
@@ -3107,13 +3394,17 @@
         "id": "ef977c547d23094bcbbaba5497246899",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": null,
-        "original_name": "Disk total",
+        "original_name": "Speicherplatz gesamt",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "disk_total",
         "unique_id": "home_assistant_host_disk_total",
         "unit_of_measurement": "GB"
       },
@@ -3132,13 +3423,17 @@
         "id": "c6be2730e6e392564e0403e298015bec",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": null,
-        "original_name": "Disk used",
+        "original_name": "Speicherplatz genutzt",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "disk_used",
         "unique_id": "home_assistant_host_disk_used",
         "unit_of_measurement": "GB"
       },
@@ -3157,13 +3452,17 @@
         "id": "a4ec6bce028860cfeb0fb5591de02db8",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": null,
-        "original_name": "Disk free",
+        "original_name": "Speicherplatz frei",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "disk_free",
         "unique_id": "home_assistant_host_disk_free",
         "unit_of_measurement": "GB"
       },
@@ -3182,7 +3481,11 @@
         "id": "1ad442d879e4a7935bea9459845a5e41",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Nächste Morgendämmerung",
@@ -3207,7 +3510,11 @@
         "id": "2a4da3795dc7f6e124d0757a64c45a78",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Nächste Abenddämmerung",
@@ -3232,7 +3539,11 @@
         "id": "d284e68f9dc67b038d737a47cfed37b3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Nächste Mitternacht",
@@ -3257,7 +3568,11 @@
         "id": "bb84d42a393d89ba2ea05fd31e0d471c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Nächsten Mittag",
@@ -3282,7 +3597,11 @@
         "id": "c63bdbb117f5d3eb0e4c3a6750e2f2fa",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Nächster Sonnenaufgang",
@@ -3307,7 +3626,11 @@
         "id": "b026ac2d50920f3508640df63600c0ce",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Nächster Sonnenuntergang",
@@ -3326,7 +3649,7 @@
         "config_entry_id": "4f36b08468dec00154d4c173a48ede3f",
         "device_class": null,
         "device_id": "32a4c51f31c839b8140901d89f475c3f",
-        "disabled_by": "integration",
+        "disabled_by": null,
         "entity_category": null,
         "entity_id": "sensor.sun_solar_elevation",
         "hidden_by": null,
@@ -3334,10 +3657,14 @@
         "id": "c0b494d0dfe3e2df7bbbaf05cf149fa5",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:theme-light-dark",
-        "original_name": "Elevation",
+        "original_name": "Sonnenhöhe",
         "platform": "sun",
         "supported_features": 0,
         "translation_key": "solar_elevation",
@@ -3353,7 +3680,7 @@
         "config_entry_id": "4f36b08468dec00154d4c173a48ede3f",
         "device_class": null,
         "device_id": "32a4c51f31c839b8140901d89f475c3f",
-        "disabled_by": "integration",
+        "disabled_by": null,
         "entity_category": null,
         "entity_id": "sensor.sun_solar_azimuth",
         "hidden_by": null,
@@ -3361,7 +3688,11 @@
         "id": "eefdde6c11ced23aa6ffe4b558658cf6",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sun-angle",
         "original_name": "Azimut",
@@ -3386,7 +3717,11 @@
         "id": "29cefbda20fc99478e0f8c203f3e76a3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bluetooth-connect",
         "original_name": null,
@@ -3413,7 +3748,11 @@
         "id": "5b5eeeebbe3af7745cd2a4bea12aeca0",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "Signal Strength",
@@ -3440,7 +3779,11 @@
         "id": "226af7f2b893d8219de0269a861fe38c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "Power",
@@ -3467,7 +3810,11 @@
         "id": "c96e38ef92d7d3254702856493170097",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "distance",
         "original_icon": "mdi:signal-distance-variant",
         "original_name": "Estimated Distance",
@@ -3492,7 +3839,11 @@
         "id": "c2b24d3bf9a4dad46df5f385fc758e46",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Vendor",
@@ -3522,6 +3873,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
           }
         },
         "original_device_class": "signal_strength",
@@ -3548,7 +3902,11 @@
         "id": "11ff8f8b15073f0c3fe438707da1618e",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bluetooth-connect",
         "original_name": null,
@@ -3575,7 +3933,11 @@
         "id": "bf12080617d603cb40bf28f788a0f6e6",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "Signal Strength",
@@ -3602,7 +3964,11 @@
         "id": "8e8d186f42594e980adb8aa151dacd45",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "Power",
@@ -3629,7 +3995,11 @@
         "id": "2962ba2197acc6f75515ea80ec3025ff",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "distance",
         "original_icon": "mdi:signal-distance-variant",
         "original_name": "Estimated Distance",
@@ -3654,7 +4024,11 @@
         "id": "3069961d62d01bbb0fc0c92c44e4d580",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Vendor",
@@ -3671,7 +4045,7 @@
         "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
         "device_class": null,
         "device_id": "146e3718434ab8c8636fddb583b9b661",
-        "disabled_by": "integration",
+        "disabled_by": null,
         "entity_category": null,
         "entity_id": "binary_sensor.studio_code_server_running",
         "hidden_by": null,
@@ -3679,13 +4053,17 @@
         "id": "ec142bc186f6b713ce031446e8688400",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
-        "original_name": "Running",
+        "original_name": "Läuft",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "a0d7b954_vscode_state",
         "unit_of_measurement": null
       },
@@ -3704,13 +4082,17 @@
         "id": "b649c28d9068c900c1ec29aea0d7833c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "a0d7b954_vscode_version",
         "unit_of_measurement": null
       },
@@ -3729,13 +4111,17 @@
         "id": "61260f838cbee9cf3fe04c41f1e7a120",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
-        "original_name": "Newest version",
+        "original_name": "Neueste Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "a0d7b954_vscode_version_latest",
         "unit_of_measurement": null
       },
@@ -3748,7 +4134,7 @@
         "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
         "device_class": null,
         "device_id": "146e3718434ab8c8636fddb583b9b661",
-        "disabled_by": "integration",
+        "disabled_by": null,
         "entity_category": null,
         "entity_id": "sensor.studio_code_server_cpu_percent",
         "hidden_by": null,
@@ -3756,13 +4142,17 @@
         "id": "794a7b6639074be87393285fc33885d9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
-        "original_name": "CPU percent",
+        "original_name": "CPU Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "a0d7b954_vscode_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -3775,7 +4165,7 @@
         "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
         "device_class": null,
         "device_id": "146e3718434ab8c8636fddb583b9b661",
-        "disabled_by": "integration",
+        "disabled_by": null,
         "entity_category": null,
         "entity_id": "sensor.studio_code_server_memory_percent",
         "hidden_by": null,
@@ -3783,13 +4173,17 @@
         "id": "f3a1674ad328eacc111d17ecd8810917",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
-        "original_name": "Memory percent",
+        "original_name": "Arbeitsspeicher in Prozent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "a0d7b954_vscode_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -3808,7 +4202,11 @@
         "id": "2cee66283bb429672e42d329b2faab91",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -3838,6 +4236,9 @@
         "options": {
           "sensor": {
             "display_precision": null
+          },
+          "conversation": {
+            "should_expose": true
           }
         },
         "original_device_class": "humidity",
@@ -3866,7 +4267,11 @@
         "id": "b92608db808b9b71411b45303062944a",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -3893,7 +4298,11 @@
         "id": "da637a6ea03a8150b16ae6003988035b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -3920,7 +4329,11 @@
         "id": "9f4d47ab4f6d188786776d063b2f8480",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "Voltage",
@@ -3933,8 +4346,320 @@
       {
         "aliases": [],
         "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "cc1977e2bab5411b2a1c8cf8794e8159",
+        "device_class": null,
+        "device_id": "89b981db7dff917d6ebc117bd1d23874",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.temperature_humidity_sensor_e0ce_signal_strength",
+        "hidden_by": null,
+        "icon": null,
+        "id": "84f402a83b676bed9bc95147a6d31128",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "sensor": {
+            "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "Signal Strength",
+        "platform": "xiaomi_ble",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:C1:38:DC:E0:CE-signal_strength",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "cc1977e2bab5411b2a1c8cf8794e8159",
+        "device_class": null,
+        "device_id": "89b981db7dff917d6ebc117bd1d23874",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.temperature_humidity_sensor_e0ce_battery",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f34fa662a9e3b3e1544d4385634bfe84",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "sensor": {
+            "display_precision": null
+          },
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "xiaomi_ble",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:C1:38:DC:E0:CE-battery",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "cc1977e2bab5411b2a1c8cf8794e8159",
+        "device_class": null,
+        "device_id": "89b981db7dff917d6ebc117bd1d23874",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.temperature_humidity_sensor_e0ce_voltage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "accbf90209c82955bb4686e7eeb1c095",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "voltage",
+        "original_icon": null,
+        "original_name": "Voltage",
+        "platform": "xiaomi_ble",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:C1:38:DC:E0:CE-voltage",
+        "unit_of_measurement": "V"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "cc1977e2bab5411b2a1c8cf8794e8159",
+        "device_class": null,
+        "device_id": "89b981db7dff917d6ebc117bd1d23874",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.temperature_humidity_sensor_e0ce_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d4977d3e4fb289509bc7fdbdc01c14ca",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": null,
+        "original_name": "Temperature",
+        "platform": "xiaomi_ble",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:C1:38:DC:E0:CE-temperature",
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "cc1977e2bab5411b2a1c8cf8794e8159",
+        "device_class": null,
+        "device_id": "89b981db7dff917d6ebc117bd1d23874",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.temperature_humidity_sensor_e0ce_humidity",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ae54148d8e53ed17563b1f0f90020755",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "humidity",
+        "original_icon": null,
+        "original_name": "Humidity",
+        "platform": "xiaomi_ble",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:C1:38:DC:E0:CE-humidity",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
         "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
+        "config_entry_id": "bb5c4cea695b07509a74448687df80ce",
+        "device_class": null,
+        "device_id": "516cf19c55f13e476096eb8d69a5b334",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.saecf54b6d00d2c76c_4679",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fcf378e4dec9aad3933089c8aafe4b01",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bluetooth-connect",
+        "original_name": null,
+        "platform": "ibeacon",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "74278bda-b644-4520-8f0c-720eaf059935_256_11600_B4:46:B3:7E:46:79",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "bb5c4cea695b07509a74448687df80ce",
+        "device_class": null,
+        "device_id": "516cf19c55f13e476096eb8d69a5b334",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.saecf54b6d00d2c76c_4679_signal_strength",
+        "hidden_by": null,
+        "icon": null,
+        "id": "45117722f627fa6ada2de477a3aaa90f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "Signal Strength",
+        "platform": "ibeacon",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "74278bda-b644-4520-8f0c-720eaf059935_256_11600_B4:46:B3:7E:46:79_rssi",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "bb5c4cea695b07509a74448687df80ce",
+        "device_class": null,
+        "device_id": "516cf19c55f13e476096eb8d69a5b334",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.saecf54b6d00d2c76c_4679_power",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7f42bb545b4406b4ba39def04ba1ed64",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "Power",
+        "platform": "ibeacon",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "74278bda-b644-4520-8f0c-720eaf059935_256_11600_B4:46:B3:7E:46:79_power",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "bb5c4cea695b07509a74448687df80ce",
+        "device_class": null,
+        "device_id": "516cf19c55f13e476096eb8d69a5b334",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.saecf54b6d00d2c76c_4679_estimated_distance",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6cfb488f3c640f5e2a5453dace2b52d4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "distance",
+        "original_icon": "mdi:signal-distance-variant",
+        "original_name": "Estimated Distance",
+        "platform": "ibeacon",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "74278bda-b644-4520-8f0c-720eaf059935_256_11600_B4:46:B3:7E:46:79_estimated_distance",
+        "unit_of_measurement": "m"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "bb5c4cea695b07509a74448687df80ce",
+        "device_class": null,
+        "device_id": "516cf19c55f13e476096eb8d69a5b334",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.saecf54b6d00d2c76c_4679_vendor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8539bd90af05d4b0bf6b722a0ae5dc6c",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Vendor",
+        "platform": "ibeacon",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "74278bda-b644-4520-8f0c-720eaf059935_256_11600_B4:46:B3:7E:46:79_vendor",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
         "device_class": null,
         "device_id": "2f83fdee94e4406590c54c2ad03f455c",
         "disabled_by": null,
@@ -3942,24 +4667,28 @@
         "entity_id": "sensor.iphone_von_torsten_battery_level",
         "hidden_by": null,
         "icon": null,
-        "id": "d52fc8812a24380d322dbdecf2d8857b",
+        "id": "36e7acfbcbdcbed183123f674918fca4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-60",
+        "original_icon": "mdi:battery-80",
         "original_name": "iPhone von Torsten Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
         "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_battery_level",
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_battery_level",
         "unit_of_measurement": "%"
       },
       {
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
         "device_class": null,
         "device_id": "2f83fdee94e4406590c54c2ad03f455c",
         "disabled_by": null,
@@ -3967,24 +4696,28 @@
         "entity_id": "sensor.iphone_von_torsten_battery_state",
         "hidden_by": null,
         "icon": null,
-        "id": "cd00fe3b673b7f948469d542902da500",
+        "id": "42bf76a0a5a4b073f33ae23f1d4dc962",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
-        "original_icon": "mdi:battery-60",
+        "original_icon": "mdi:battery-80",
         "original_name": "iPhone von Torsten Battery State",
         "platform": "mobile_app",
         "supported_features": 0,
         "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_battery_state",
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_battery_state",
         "unit_of_measurement": null
       },
       {
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
         "device_class": null,
         "device_id": "2f83fdee94e4406590c54c2ad03f455c",
         "disabled_by": null,
@@ -3992,174 +4725,28 @@
         "entity_id": "sensor.iphone_von_torsten_storage",
         "hidden_by": null,
         "icon": null,
-        "id": "9184a2b132bd2fe948931275dd940877",
+        "id": "2968f9c659bfcfcd9621b7581deea0d9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:database",
         "original_name": "iPhone von Torsten Storage",
         "platform": "mobile_app",
         "supported_features": 0,
         "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_storage",
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_storage",
         "unit_of_measurement": "% available"
       },
       {
         "aliases": [],
         "area_id": null,
         "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
-        "device_class": null,
-        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "sensor.iphone_von_torsten_bssid",
-        "hidden_by": null,
-        "icon": null,
-        "id": "8f8222fd3db73155e97e1601e580d98d",
-        "has_entity_name": false,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:wifi-star",
-        "original_name": "iPhone von Torsten BSSID",
-        "platform": "mobile_app",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_connectivity_bssid",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
-        "device_class": null,
-        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "sensor.iphone_von_torsten_connection_type",
-        "hidden_by": null,
-        "icon": null,
-        "id": "9451b947d3dedef84c85b6a1f51dd1b7",
-        "has_entity_name": false,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:wifi",
-        "original_name": "iPhone von Torsten Connection Type",
-        "platform": "mobile_app",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_connectivity_connection_type",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
-        "device_class": null,
-        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "sensor.iphone_von_torsten_sim_1",
-        "hidden_by": null,
-        "icon": null,
-        "id": "cb65f01bc69de26157a3e2a9917497ef",
-        "has_entity_name": false,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:sim",
-        "original_name": "iPhone von Torsten SIM 1",
-        "platform": "mobile_app",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_connectivity_sim_1",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
-        "device_class": null,
-        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "sensor.iphone_von_torsten_sim_2",
-        "hidden_by": null,
-        "icon": null,
-        "id": "b86baf9ac5350fe424a2703c6283abfe",
-        "has_entity_name": false,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:sim",
-        "original_name": "iPhone von Torsten SIM 2",
-        "platform": "mobile_app",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_connectivity_sim_2",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
-        "device_class": null,
-        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "binary_sensor.iphone_von_torsten_focus",
-        "hidden_by": null,
-        "icon": null,
-        "id": "d25d016741e6bfeca47b9f6b1aef6e13",
-        "has_entity_name": false,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:moon-waning-crescent",
-        "original_name": "iPhone von Torsten Focus",
-        "platform": "mobile_app",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_focus",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
-        "device_class": null,
-        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "sensor.iphone_von_torsten_last_update_trigger",
-        "hidden_by": null,
-        "icon": null,
-        "id": "158c5beba99d9e464320ef145ef75636",
-        "has_entity_name": false,
-        "name": null,
-        "options": {},
-        "original_device_class": null,
-        "original_icon": "mdi:cellphone-wireless",
-        "original_name": "iPhone von Torsten Last Update Trigger",
-        "platform": "mobile_app",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_last_update_trigger",
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "2a0117b368aea1fdba282507abf09a2f",
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
         "device_class": null,
         "device_id": "2f83fdee94e4406590c54c2ad03f455c",
         "disabled_by": null,
@@ -4167,18 +4754,784 @@
         "entity_id": "sensor.iphone_von_torsten_ssid",
         "hidden_by": null,
         "icon": null,
-        "id": "87c9fd7bb2f79e9a425a200ab2ae1416",
+        "id": "691e04ee6a687e59246f901f9742cc43",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:wifi",
         "original_name": "iPhone von Torsten SSID",
         "platform": "mobile_app",
         "supported_features": 0,
         "translation_key": null,
-        "unique_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b_connectivity_ssid",
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_connectivity_ssid",
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
+        "device_class": null,
+        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten_bssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "88b25b594bb0e79a70c2adecbadbb22f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi-star",
+        "original_name": "iPhone von Torsten BSSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_connectivity_bssid",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
+        "device_class": null,
+        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten_connection_type",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2731d264f9aa14ef305e4c080cc81260",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "iPhone von Torsten Connection Type",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_connectivity_connection_type",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
+        "device_class": null,
+        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten_sim_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b006bb53d013d60cadd4d4cd87fffc33",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "iPhone von Torsten SIM 2",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_connectivity_sim_2",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
+        "device_class": null,
+        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.iphone_von_torsten_focus",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1d53a732fb8b15231cbdf913e29c5ace",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:moon-waning-crescent",
+        "original_name": "iPhone von Torsten Focus",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_focus",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
+        "device_class": null,
+        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten_last_update_trigger",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c66e9f049b4f5c64e32309ffbf44772c",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-wireless",
+        "original_name": "iPhone von Torsten Last Update Trigger",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_last_update_trigger",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ce44765624b9daca266439191eb4e1c5",
+        "device_class": null,
+        "device_id": "2f83fdee94e4406590c54c2ad03f455c",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten_sim_1",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2ced66424fbf12bff0e6bf9f977b1b58",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "iPhone von Torsten SIM 1",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52_connectivity_sim_1",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
+        "device_class": null,
+        "device_id": "dd22d947443349b949d149fc3a92fd1e",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.duck_dns_lauft",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d79bf0f19a97778270c1ccc286e09273",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Läuft",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_duckdns_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
+        "device_class": null,
+        "device_id": "dd22d947443349b949d149fc3a92fd1e",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.duck_dns_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f773b1202fd559ced81b805dcbcd8108",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_duckdns_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
+        "device_class": null,
+        "device_id": "dd22d947443349b949d149fc3a92fd1e",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.duck_dns_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5705c4257ed0a5a930d952811c36a499",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_duckdns_version",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
+        "device_class": null,
+        "device_id": "dd22d947443349b949d149fc3a92fd1e",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.duck_dns_neueste_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e43d704d4eae8ae5e8a8f4f171aabca4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Neueste Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_duckdns_version_latest",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
+        "device_class": null,
+        "device_id": "dd22d947443349b949d149fc3a92fd1e",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.duck_dns_cpu_prozent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "274f199c103a5885427f5e300cfc4277",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU Prozent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_duckdns_cpu_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "240fa67e3c2d4bfe1b79ff47dce17982",
+        "device_class": null,
+        "device_id": "dd22d947443349b949d149fc3a92fd1e",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.duck_dns_arbeitsspeicher_in_prozent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "07f5963fefedbd84b93e4dad0177a1ad",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Arbeitsspeicher in Prozent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_duckdns_memory_percent",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.iphone_von_torsten2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d2b00d36a8d1ccbee011e20d53e32565",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "iPhone von Torsten2",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "5838C856-96A1-4366-948A-42A8B26EDFBB",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_battery_level",
+        "hidden_by": null,
+        "icon": null,
+        "id": "497f59a217106b5c8796ae759ca10e4f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": "mdi:battery",
+        "original_name": "iPhone von Torsten2 Battery Level",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_battery_level",
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_sim_1",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2080749400b92f45d7ae97cfbce3f9fb",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "iPhone von Torsten2 SIM 1",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_connectivity_sim_1",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_last_update_trigger",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8ac682fef5ea8501a1e8e9963125ab16",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone-wireless",
+        "original_name": "iPhone von Torsten2 Last Update Trigger",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_last_update_trigger",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_sim_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1001c86e227736aa4d92b2c31e64dce8",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sim",
+        "original_name": "iPhone von Torsten2 SIM 2",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_connectivity_sim_2",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_geocoded_location",
+        "hidden_by": null,
+        "icon": null,
+        "id": "789be2a26c321efc603ec0ecfaf40f1b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:map",
+        "original_name": "iPhone von Torsten2 Geocoded Location",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_geocoded_location",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.iphone_von_torsten2_focus",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e6e7e3e4d76bad73fc1c0cbf58e78913",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:moon-waning-crescent",
+        "original_name": "iPhone von Torsten2 Focus",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_focus",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_storage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7d9f237d3500a7a5f1a381a669515b14",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:database",
+        "original_name": "iPhone von Torsten2 Storage",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_storage",
+        "unit_of_measurement": "% available"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_ssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "721f455f01d79e015a988036a10d2831",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "iPhone von Torsten2 SSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_connectivity_ssid",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_bssid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "80cecd82e56eb6eeffa0362fd5ca2eb7",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi-star",
+        "original_name": "iPhone von Torsten2 BSSID",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_connectivity_bssid",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_battery_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "951ca8ee33f65514c6602c759cc9e795",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:battery",
+        "original_name": "iPhone von Torsten2 Battery State",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_battery_state",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "device_class": null,
+        "device_id": "16da678f02121dac0905934c542be1bd",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.iphone_von_torsten2_connection_type",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4c9b78c01bb961a59d6339d6dfac2295",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:wifi",
+        "original_name": "iPhone von Torsten2 Connection Type",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7_connectivity_connection_type",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "4e9f7d766664a41864752a4c5de8d59c",
+        "device_class": null,
+        "device_id": "5eb1108f5c86f63f59b9c1a42cb0057a",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.temperature_humidity_sensor_d045_signal_strength",
+        "hidden_by": null,
+        "icon": null,
+        "id": "024040c9b311d21808b4bfea360500bf",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "Signal Strength",
+        "platform": "xiaomi_ble",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:C1:38:6D:D0:45-signal_strength",
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "ed49bad5d02a87500fba04e9cda87a4f",
+        "device_class": null,
+        "device_id": "fedda13ce529d1fe23e5bd6137162bd9",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.temperature_humidity_sensor_fd29_signal_strength",
+        "hidden_by": null,
+        "icon": null,
+        "id": "172a8847e8305e4e3cdaba30b2a736ae",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "Signal Strength",
+        "platform": "xiaomi_ble",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A4:C1:38:D4:FD:29-signal_strength",
+        "unit_of_measurement": "dBm"
       }
     ]
   }

@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2023.4.4",
+        "sw_version": "2023.5.2",
         "via_device_id": null
       },
       {
@@ -49,7 +49,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2023.04.0",
+        "sw_version": "2023.04.1",
         "via_device_id": null
       },
       {
@@ -73,7 +73,7 @@
         "model": "Home Assistant Operating System",
         "name_by_user": null,
         "name": "Home Assistant Operating System",
-        "sw_version": "9.5",
+        "sw_version": "10.1",
         "via_device_id": null
       },
       {
@@ -90,7 +90,7 @@
         ],
         "disabled_by": null,
         "entry_type": null,
-        "hw_version": "usb:v1D6Bp0246d053F",
+        "hw_version": "usb:v1D6Bp0246d0542",
         "id": "9823e7399cabda6e07b27446791ff460",
         "identifiers": [],
         "manufacturer": "Raspberry Pi Trading Ltd",
@@ -144,7 +144,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "File editor",
-        "sw_version": "5.5.0",
+        "sw_version": "5.6.0",
         "via_device_id": null
       },
       {
@@ -168,7 +168,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Terminal & SSH",
-        "sw_version": "9.6.1",
+        "sw_version": "9.7.0",
         "via_device_id": null
       },
       {
@@ -192,7 +192,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Mosquitto broker",
-        "sw_version": "6.2.0",
+        "sw_version": "6.2.1",
         "via_device_id": null
       },
       {
@@ -222,7 +222,7 @@
       {
         "area_id": null,
         "config_entries": [
-          "2a0117b368aea1fdba282507abf09a2f"
+          "ce44765624b9daca266439191eb4e1c5"
         ],
         "configuration_url": null,
         "connections": [],
@@ -264,7 +264,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "NGINX Home Assistant SSL proxy",
-        "sw_version": "3.2.0",
+        "sw_version": "3.4.2",
         "via_device_id": null
       },
       {
@@ -288,31 +288,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Node-RED",
-        "sw_version": "14.1.4",
-        "via_device_id": null
-      },
-      {
-        "area_id": null,
-        "config_entries": [
-          "240fa67e3c2d4bfe1b79ff47dce17982"
-        ],
-        "configuration_url": "homeassistant://hassio/addon/core_letsencrypt",
-        "connections": [],
-        "disabled_by": null,
-        "entry_type": "service",
-        "hw_version": null,
-        "id": "905d1ee3d91ff4ca40120762af49ddfa",
-        "identifiers": [
-          [
-            "hassio",
-            "core_letsencrypt"
-          ]
-        ],
-        "manufacturer": "Official add-ons",
-        "model": "Home Assistant Add-on",
-        "name_by_user": null,
-        "name": "Let's Encrypt",
-        "sw_version": "4.12.8",
+        "sw_version": "14.1.5",
         "via_device_id": null
       },
       {
@@ -658,7 +634,151 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.5.6",
+        "sw_version": "5.5.7",
+        "via_device_id": null
+      },
+      {
+        "area_id": "mi",
+        "config_entries": [
+          "cc1977e2bab5411b2a1c8cf8794e8159"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "89b981db7dff917d6ebc117bd1d23874",
+        "identifiers": [
+          [
+            "bluetooth",
+            "A4:C1:38:DC:E0:CE"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "LYWSD03MMC",
+        "name_by_user": null,
+        "name": "Temperature/Humidity Sensor E0CE",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "bb5c4cea695b07509a74448687df80ce"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "516cf19c55f13e476096eb8d69a5b334",
+        "identifiers": [
+          [
+            "ibeacon",
+            "74278bda-b644-4520-8f0c-720eaf059935_256_11600_B4:46:B3:7E:46:79"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Saecf54b6d00d2c76C 4679",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_duckdns",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "dd22d947443349b949d149fc3a92fd1e",
+        "identifiers": [
+          [
+            "hassio",
+            "core_duckdns"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Duck DNS",
+        "sw_version": "1.15.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "9fa1f093869023a1fb17f16d963e28b7"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "16da678f02121dac0905934c542be1bd",
+        "identifiers": [
+          [
+            "mobile_app",
+            "5838C856-96A1-4366-948A-42A8B26EDFBB"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone11,8",
+        "name_by_user": null,
+        "name": "iPhone von Torsten2",
+        "sw_version": "16.3.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "mi",
+        "config_entries": [
+          "4e9f7d766664a41864752a4c5de8d59c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5eb1108f5c86f63f59b9c1a42cb0057a",
+        "identifiers": [
+          [
+            "bluetooth",
+            "A4:C1:38:6D:D0:45"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "LYWSD03MMC",
+        "name_by_user": null,
+        "name": "Temperature/Humidity Sensor D045",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "mi",
+        "config_entries": [
+          "ed49bad5d02a87500fba04e9cda87a4f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fedda13ce529d1fe23e5bd6137162bd9",
+        "identifiers": [
+          [
+            "bluetooth",
+            "A4:C1:38:D4:FD:29"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "LYWSD03MMC",
+        "name_by_user": null,
+        "name": "Temperature/Humidity Sensor FD29",
+        "sw_version": null,
         "via_device_id": null
       }
     ],
@@ -678,16 +798,18 @@
         "orphaned_timestamp": null
       },
       {
-        "config_entries": [],
+        "config_entries": [
+          "240fa67e3c2d4bfe1b79ff47dce17982"
+        ],
         "connections": [],
         "identifiers": [
           [
-            "bluetooth",
-            "A4:C1:38:DC:E0:CE"
+            "hassio",
+            "core_letsencrypt"
           ]
         ],
-        "id": "89b981db7dff917d6ebc117bd1d23874",
-        "orphaned_timestamp": 1681245772.1181345
+        "id": "905d1ee3d91ff4ca40120762af49ddfa",
+        "orphaned_timestamp": null
       }
     ]
   }

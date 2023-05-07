@@ -21,6 +21,24 @@
         "mode": "storage",
         "url_path": "dashboard-gerate",
         "id": "dashboard_gerate"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:home",
+        "title": "Home",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-home",
+        "id": "dashboard_home"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:battery-check",
+        "title": "Batterie ",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-batterie",
+        "id": "dashboard_batterie"
       }
     ]
   }

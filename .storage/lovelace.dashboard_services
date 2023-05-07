@@ -14,77 +14,13 @@
               "type": "entities",
               "entities": [
                 {
-                  "entity": "sensor.mosquitto_broker_cpu_percent",
-                  "name": "CPU percent"
-                },
-                {
-                  "entity": "sensor.mosquitto_broker_memory_percent",
-                  "name": "Memory percent"
-                },
-                {
-                  "entity": "binary_sensor.mosquitto_broker_running",
-                  "name": "Running"
-                }
-              ],
-              "title": "Mosquitto broker"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.mqtt_explorer_cpu_percent",
-                  "name": "CPU percent"
-                },
-                {
-                  "entity": "sensor.mqtt_explorer_memory_percent",
-                  "name": "Memory percent"
-                },
-                {
-                  "entity": "binary_sensor.mqtt_explorer_running",
-                  "name": "Running"
-                }
-              ],
-              "title": "MQTT Explorer"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.nginx_home_assistant_ssl_proxy_cpu_percent",
-                  "name": "CPU percent"
-                },
-                {
-                  "entity": "sensor.nginx_home_assistant_ssl_proxy_memory_percent",
-                  "name": "Memory percent"
+                  "entity": "binary_sensor.duck_dns_lauft",
+                  "name": "Duck DNS"
                 },
                 {
                   "entity": "binary_sensor.nginx_home_assistant_ssl_proxy_running",
-                  "name": "Running"
-                }
-              ],
-              "title": "NGINX Home Assistant SSL proxy"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.terminal_ssh_cpu_percent",
-                  "name": "CPU percent"
+                  "name": "NGINX SSL proxy"
                 },
-                {
-                  "entity": "sensor.terminal_ssh_memory_percent",
-                  "name": "Memory percent"
-                },
-                {
-                  "entity": "binary_sensor.terminal_ssh_running",
-                  "name": "Running"
-                }
-              ],
-              "title": "Terminal & SSH"
-            },
-            {
-              "type": "entities",
-              "entities": [
                 {
                   "entity": "binary_sensor.mosquitto_broker_running",
                   "name": "Mosquitto broker"
@@ -102,8 +38,8 @@
                   "name": "File editor"
                 },
                 {
-                  "entity": "binary_sensor.nginx_home_assistant_ssl_proxy_running",
-                  "name": "NGINX SSL proxy"
+                  "entity": "binary_sensor.studio_code_server_running",
+                  "name": "Studio Code Server"
                 }
               ],
               "title": "Running",
@@ -113,21 +49,32 @@
               "type": "entities",
               "entities": [
                 {
+                  "entity": "sensor.duck_dns_cpu_prozent",
+                  "name": "Duck DNS"
+                },
+                {
+                  "entity": "sensor.nginx_home_assistant_ssl_proxy_cpu_percent",
+                  "name": "NGINX SSL proxy"
+                },
+                {
                   "entity": "sensor.mosquitto_broker_cpu_percent",
                   "name": "Mosquitto broker"
                 },
                 {
-                  "entity": "sensor.mqtt_explorer_cpu_percent"
+                  "entity": "sensor.mqtt_explorer_cpu_percent",
+                  "name": "MQTT Explorer"
                 },
                 {
-                  "entity": "sensor.terminal_ssh_cpu_percent"
+                  "entity": "sensor.terminal_ssh_cpu_percent",
+                  "name": "Terminal & SSH"
                 },
                 {
-                  "entity": "sensor.file_editor_cpu_percent"
+                  "entity": "sensor.file_editor_cpu_percent",
+                  "name": "File editor"
                 },
                 {
-                  "entity": "sensor.nginx_home_assistant_ssl_proxy_cpu_percent",
-                  "name": "NGINX SSL proxy CPU percent"
+                  "entity": "sensor.studio_code_server_cpu_percent",
+                  "name": "Studio Code Server"
                 }
               ],
               "title": "CPU-Nutzung",
@@ -137,20 +84,32 @@
               "type": "entities",
               "entities": [
                 {
-                  "entity": "sensor.mosquitto_broker_memory_percent"
-                },
-                {
-                  "entity": "sensor.mqtt_explorer_memory_percent"
-                },
-                {
-                  "entity": "sensor.terminal_ssh_memory_percent"
-                },
-                {
-                  "entity": "sensor.file_editor_memory_percent"
+                  "entity": "sensor.duck_dns_arbeitsspeicher_in_prozent",
+                  "name": "Duck DNS"
                 },
                 {
                   "entity": "sensor.nginx_home_assistant_ssl_proxy_memory_percent",
-                  "name": "NGINX SSL proxy Memory percent"
+                  "name": "NGINX SSL proxy"
+                },
+                {
+                  "entity": "sensor.mosquitto_broker_memory_percent",
+                  "name": "Mosquitto broker"
+                },
+                {
+                  "entity": "sensor.mqtt_explorer_memory_percent",
+                  "name": "MQTT Explorer"
+                },
+                {
+                  "entity": "sensor.terminal_ssh_memory_percent",
+                  "name": "Terminal & SSH"
+                },
+                {
+                  "entity": "sensor.file_editor_memory_percent",
+                  "name": "File editor"
+                },
+                {
+                  "entity": "sensor.studio_code_server_memory_percent",
+                  "name": "Studio Code Server"
                 }
               ],
               "title": "RAM-Nutzung"

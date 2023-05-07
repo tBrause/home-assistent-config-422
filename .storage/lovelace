@@ -9,95 +9,9 @@
         {
           "path": "default_view",
           "title": "Home",
-          "cards": [
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.weather_station_temperature",
-                  "name": "Temperature"
-                },
-                {
-                  "entity": "sensor.weather_station_co2",
-                  "name": "CO2"
-                },
-                {
-                  "entity": "sensor.weather_station_humidity",
-                  "name": "Humidity"
-                },
-                {
-                  "entity": "sensor.weather_station_noise",
-                  "name": "Noise"
-                },
-                {
-                  "entity": "sensor.weather_station_pressure",
-                  "name": "Pressure"
-                }
-              ],
-              "title": "Wohnzimmer"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.h5102_bb2a_temperature"
-                },
-                {
-                  "entity": "sensor.shelly23temp",
-                  "icon": "mdi:thermometer"
-                },
-                {
-                  "entity": "sensor.h5102_bb2a_humidity"
-                },
-                {
-                  "entity": "sensor.shelly23hum",
-                  "icon": "mdi:water-percent"
-                }
-              ],
-              "title": "Büro"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.temperature_humidity_sensor_fde8_temperature",
-                  "name": "Temperature"
-                },
-                {
-                  "entity": "sensor.temperature_humidity_sensor_fde8_humidity"
-                }
-              ],
-              "title": "Sensor FDE8"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.weather_station_weather_station_weather_station_outdoor_temperature",
-                  "name": "Temperature"
-                },
-                {
-                  "entity": "sensor.weather_station_weather_station_weather_station_outdoor_humidity",
-                  "name": "Humidity"
-                }
-              ],
-              "title": "Outdoor"
-            },
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.weather_station_weather_station_weather_station_regenmesser_rain",
-                  "name": "Rain"
-                },
-                {
-                  "entity": "sensor.weather_station_weather_station_weather_station_regenmesser_rain_today",
-                  "name": "Rain today"
-                }
-              ],
-              "title": "Regenmesser"
-            }
-          ]
+          "icon": "mdi:home",
+          "badges": [],
+          "cards": []
         }
       ]
     }

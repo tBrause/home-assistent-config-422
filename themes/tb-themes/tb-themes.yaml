@@ -1,7 +1,7 @@
 tb:
   # Global
   primary-color: "#226e93"
-  light-primary-color: "#2c2c2e" # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
+  light-primary-color: "#f1f1f1" # (icons on left menu) (light: systemGray5 from iOS dark mode, dark: XXX)
   primary-background-color: "#f1f1f1"
   secondary-background-color: rgba(255, 255, 255, 0.9)
   divider-color: rgba(142, 142, 147, 0.3) # from Apple systemGray light mode
@@ -9,7 +9,11 @@ tb:
   app-header-background-color: "#226e93"
   app-header-text-color: "#f1f1f1"
   app-toolbar-font-size: "1em"
-  paper-font-body1_-_font-weight: "700"
+  # Paper
+  ha-card-header-font-size: "1.8rem"
+  ha-card-header-color: "red"
+  paper-font-body1_-_font-weight: "400"
+  paper-font-body1_-_font-size: "1.2rem"
   # Text
   primary-text-color: "#464a47"
   secondary-text-color: "#000000"
@@ -17,21 +21,22 @@ tb:
   disabled-text-color: "#fff" # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
   text-dark-color: "#FFF"
   # Sidebar Menu
-  sidebar-background-color: "#222"
-  sidebar-icon-color: "#ccc"
-  sidebar-text-color: "#f1f1f1"
-  sidebar-selected-icon-color: "#f1f1f1"
-  sidebar-selected-text-color: "#f1f1f1"
+  sidebar-background-color: "#fff"
+  sidebar-icon-color: "#222"
+  sidebar-text-color: "#222"
+  sidebar-selected-icon-color: "#222"
+  sidebar-selected-text-color: "#222"
   sidebar-selected-background-color: var(--primary-background-color)
   # Custom
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: white
   mini-media-player-icon-color: white
   # Input
+  mdc-text-field-fill-color: "#fff"
   # mdc-text-field-color: "#fff"
   menu-color: "#fff"
   text-content-font-size: "4rem"
-  mdc-text-field-ink-color: "#fff"
+  #mdc-text-field-ink-color: "#fff"
   input-ink-color: var(--primary-text-color)
   input-fill-color: transparent
   input-disabled-fill-color: transparent

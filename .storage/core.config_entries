@@ -233,14 +233,14 @@
               "write_smarther",
               "write_thermostat"
             ],
-            "access_token": "6331ed8e81fd85318a0843bd|93ce589b777d5976de48b1490f184cf2",
+            "access_token": "6331ed8e81fd85318a0843bd|c80877f85619cf4d33d1e6ab8ea1be41",
             "refresh_token": "6331ed8e81fd85318a0843bd|c5c3b43f29c8da319f32faa203d0d228",
             "expires_in": 10800,
             "expire_in": 10800,
             "restricted_access_token": "6331ed8e81fd85318a0843bd|b5f63cb45759d70d1b36a675e3559f77",
             "restricted_refresh_token": "6331ed8e81fd85318a0843bd|6dcb42b52ccffb3ff513bb5e4e01d191",
             "service": "netatmo",
-            "expires_at": 1681415655.1577115
+            "expires_at": 1683428094.9543068
           },
           "webhook_id": "b41cb0d7fc6b823b85c7f262414b2076e499dfa15d48d31fcd12c2013b7f8e1a"
         },
@@ -317,7 +317,8 @@
         "data": {
           "host": "192.168.178.29",
           "mac": "00:7c:2d:e5:cd:9e",
-          "model": "UE58RU7179UXZG"
+          "model": "UE58RU7179UXZG",
+          "ssdp_rendering_control_location": "http://192.168.178.29:9197/dmr"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -342,27 +343,55 @@
         "disabled_by": null
       },
       {
-        "entry_id": "2a0117b368aea1fdba282507abf09a2f",
+        "entry_id": "cc1977e2bab5411b2a1c8cf8794e8159",
+        "version": 1,
+        "domain": "xiaomi_ble",
+        "title": "Temperature/Humidity Sensor E0CE (LYWSD03MMC)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "A4:C1:38:DC:E0:CE",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ad819ae15b1f75b00f166d38a1556b47",
+        "version": 1,
+        "domain": "shelly",
+        "title": "Shelly: shellyht-702F79",
+        "data": {
+          "host": "192.168.178.39"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "C8C9A3702F79",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ce44765624b9daca266439191eb4e1c5",
         "version": 1,
         "domain": "mobile_app",
         "title": "iPhone von Torsten",
         "data": {
-          "app_id": "io.robbie.HomeAssistant",
-          "app_version": "2023.2 (2023.444)",
+          "app_name": "Home Assistant",
           "device_id": "23EB3C0B-DE56-40A7-9775-E89D1963CD6F",
+          "app_id": "io.robbie.HomeAssistant",
+          "supports_encryption": true,
+          "os_name": "iOS",
           "manufacturer": "Apple",
           "model": "iPhone11,8",
-          "supports_encryption": true,
-          "app_name": "Home Assistant",
-          "app_data": {
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
-            "push_token": "eCy7lf02N05VkeTjP0O6dS:APA91bE23ckkYoQMg4b8ru2vkvuOyunfrVMKI9P29LfrLF5gx1eywLp6yaPYlLbc9WiX96MNcA9oSl1EhmcyCHWCwXO-dvmri755bu9LMToLJkWCHPvRftKGq9br8vEFzg1B7RSP4nDV"
-          },
+          "app_version": "2023.4 (2023.460)",
           "os_version": "16.3.1",
+          "app_data": {
+            "push_token": "eCy7lf02N05VkeTjP0O6dS:APA91bE23ckkYoQMg4b8ru2vkvuOyunfrVMKI9P29LfrLF5gx1eywLp6yaPYlLbc9WiX96MNcA9oSl1EhmcyCHWCwXO-dvmri755bu9LMToLJkWCHPvRftKGq9br8vEFzg1B7RSP4nDV",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
           "device_name": "iPhone von Torsten",
-          "os_name": "iOS",
-          "webhook_id": "c1be4396b63eaa26c98b9a2fe6dccbc54bd354e956e41d098eee1b50fa9a824b",
-          "secret": "7ebe1683bdf202d12623a92dc3f2b00146606c65e514ee8d3675ba0afdf7deba",
+          "webhook_id": "ca0d8060e74075556ed5a4baa4c8d22c790910ed46c6a23e5aa4e8c675024a52",
+          "secret": "70bd3f022e67fc9774b2ee7ee34f426a18f7d0f4ecd2e129b25f4bfaed5cb89b",
           "user_id": "bc51762e0e6446799a0b741256f4f467",
           "no_legacy_encryption": true
         },
@@ -371,6 +400,64 @@
         "pref_disable_polling": false,
         "source": "registration",
         "unique_id": "io.robbie.HomeAssistant-23EB3C0B-DE56-40A7-9775-E89D1963CD6F",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9fa1f093869023a1fb17f16d963e28b7",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone von Torsten2",
+        "data": {
+          "device_id": "5838C856-96A1-4366-948A-42A8B26EDFBB",
+          "model": "iPhone11,8",
+          "app_data": {
+            "push_token": "fRbK-A5yMk-eozE2_k7D6K:APA91bGPU9Rzfw909J1lAHt2Ye6uX5p2go6Rzs-HX0L-LdCp5ibbd2LbLBMgyxFPu9cCumwsZLqi2cvekZPdL19Z0rHbpfNRq_CpofYR3eTtyqdGUE9E0gbm4iStp8V1CgwlAAdfy-0H",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "os_version": "16.3.1",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_version": "2023.4 (2023.460)",
+          "manufacturer": "Apple",
+          "device_name": "iPhone von Torsten2",
+          "os_name": "iOS",
+          "supports_encryption": true,
+          "app_name": "Home Assistant",
+          "webhook_id": "f63165674b0dd8633b47e4990b4133f34f787022a323121bef2c393ab8edadc7",
+          "secret": "8a8f76ea958a20718524df21984c87e54a1345dbfbd06fca57f5b7df17fe909f",
+          "user_id": "bc51762e0e6446799a0b741256f4f467",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-5838C856-96A1-4366-948A-42A8B26EDFBB",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4e9f7d766664a41864752a4c5de8d59c",
+        "version": 1,
+        "domain": "xiaomi_ble",
+        "title": "Temperature/Humidity Sensor D045 (LYWSD03MMC)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "A4:C1:38:6D:D0:45",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ed49bad5d02a87500fba04e9cda87a4f",
+        "version": 1,
+        "domain": "xiaomi_ble",
+        "title": "Temperature/Humidity Sensor FD29 (LYWSD03MMC)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "A4:C1:38:D4:FD:29",
         "disabled_by": null
       }
     ]
